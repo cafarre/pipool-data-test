@@ -913,3 +913,6 @@ Consider defining a bean of type 'es.fdvcode.pipool.common.SystemCommand' in you
 [INFO ] 2017-08-12 20:48:49.902 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.8
 [INFO ] 2017-08-12 20:48:50.916 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
 [INFO ] 2017-08-12 20:55:48.053 [pool-6-thread-1] PiPoolScheduledTaskBackup - PiPoolScheduledTaskBackup Initiated
+[INFO ] 2017-08-12 20:55:57.034 [pool-6-thread-1] PiPoolScheduledTaskBackup - RESULTAT Execució SystemCommand [./pushchanges.sh] -> 
+[INFO ] 2017-08-12 20:55:57.047 [pool-6-thread-1] SchedulerSrv - Start ScheduledTask Scheduler BACKUP amb hora=20, minut=55 y delay=0.
+[INFO ] 2017-08-12 20:55:57.055 [pool-7-thread-1] PiPoolScheduledTaskBackup - PiPoolScheduledTaskBackup Initiated
