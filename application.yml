@@ -23,7 +23,7 @@ pipool:
     backup:
       active: true
       hora: 20
-      minut: 36   
+      minut: 40   
   reles:
     file: conf/reles.json
   sondes:
