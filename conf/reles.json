@@ -98,17 +98,20 @@
     "diaFin" : 30,
     "mesFin" : 9,
     "listFrangesHoraries" : [ {
+      "horaIni" : 8,
+      "minutIni" : 0,
+      "horaFin" : 9,
+      "minutFin" : 0
+    }, {
       "horaIni" : 16,
       "minutIni" : 0,
       "horaFin" : 19,
-      "minutFin" : 0,
-      "activa" : true
+      "minutFin" : 0
     }, {
       "horaIni" : 22,
       "minutIni" : 0,
       "horaFin" : 23,
-      "minutFin" : 30,
-      "activa" : false
+      "minutFin" : 30
     } ],
     "actiu" : true
   }, {
