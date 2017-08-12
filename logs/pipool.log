@@ -287,3 +287,173 @@
 [INFO ] 2017-08-12 12:40:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.925
 [INFO ] 2017-08-12 12:40:52.329 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.7
 [INFO ] 2017-08-12 12:40:53.351 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 12:50:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 29.056
+[INFO ] 2017-08-12 12:50:52.333 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.8
+[INFO ] 2017-08-12 12:50:53.347 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 12:59:09.293 [qtp8641687-16] SondaTempRestController - REST - LED OFF All Sondes.
+[INFO ] 2017-08-12 12:59:09.811 [qtp8641687-16] SondaAtlasRTD - Resultat Exec Command [L,0] en Sonda [SondaTemp]: 
+[INFO ] 2017-08-12 12:59:10.323 [qtp8641687-16] SondaAtlasORP - Resultat Exec Command [L,0] en Sonda [SondaORP]: 
+[INFO ] 2017-08-12 12:59:10.844 [qtp8641687-16] SondaAtlasPH - Resultat Exec Command [L,0] en Sonda [SondaPH]: 
+[INFO ] 2017-08-12 13:00:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 29.041
+[INFO ] 2017-08-12 13:00:52.332 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.6
+[INFO ] 2017-08-12 13:00:53.347 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 13:10:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.821
+[INFO ] 2017-08-12 13:10:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.3
+[INFO ] 2017-08-12 13:10:53.350 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 13:20:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.794
+[INFO ] 2017-08-12 13:20:52.322 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.1
+[INFO ] 2017-08-12 13:20:53.342 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 13:30:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.638
+[INFO ] 2017-08-12 13:30:51.318 [pool-5-thread-1] PiPoolScheduledTaskPersist - PiPoolScheduledTaskPersist Initiated
+[INFO ] 2017-08-12 13:30:51.343 [pool-5-thread-1] SondesPersister - Persistencia de SONDES OK.
+[INFO ] 2017-08-12 13:30:51.356 [pool-5-thread-1] RelesPersister - Persistencia de RELES OK.
+[INFO ] 2017-08-12 13:30:52.321 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.8
+[INFO ] 2017-08-12 13:30:53.348 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 13:40:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.623
+[INFO ] 2017-08-12 13:40:52.331 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.9
+[INFO ] 2017-08-12 13:40:53.346 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 13:50:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.598
+[INFO ] 2017-08-12 13:50:52.332 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.4
+[INFO ] 2017-08-12 13:50:53.349 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 14:00:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.569
+[INFO ] 2017-08-12 14:00:52.324 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.2
+[INFO ] 2017-08-12 14:00:53.350 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 14:01:04.298 [pool-3-thread-1] PiPoolScheduledTaskRele - SCHEDULER RELES - DESACTIVANT [OFF] el RELE: ReleBomba
+[INFO ] 2017-08-12 14:01:04.306 [pool-3-thread-1] RelesSrv - RELESRV - UPDATESTATE -> S'ha establert l'estat del Rele=ReleBomba amb Mode=AUTO, EstatRele=false i EstatPin=true.
+[INFO ] 2017-08-12 14:10:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.431
+[INFO ] 2017-08-12 14:10:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.4
+[INFO ] 2017-08-12 14:10:53.350 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 14:20:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.426
+[INFO ] 2017-08-12 14:20:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.6
+[INFO ] 2017-08-12 14:20:53.348 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 14:30:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.425
+[INFO ] 2017-08-12 14:30:51.318 [pool-5-thread-1] PiPoolScheduledTaskPersist - PiPoolScheduledTaskPersist Initiated
+[INFO ] 2017-08-12 14:30:51.345 [pool-5-thread-1] SondesPersister - Persistencia de SONDES OK.
+[INFO ] 2017-08-12 14:30:51.361 [pool-5-thread-1] RelesPersister - Persistencia de RELES OK.
+[INFO ] 2017-08-12 14:30:52.322 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.7
+[INFO ] 2017-08-12 14:30:53.344 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 14:40:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.425
+[INFO ] 2017-08-12 14:40:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.3
+[INFO ] 2017-08-12 14:40:53.348 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 14:50:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.431
+[INFO ] 2017-08-12 14:50:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.8
+[INFO ] 2017-08-12 14:50:53.348 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 15:00:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.437
+[INFO ] 2017-08-12 15:00:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.9
+[INFO ] 2017-08-12 15:00:53.348 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 15:10:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.444
+[INFO ] 2017-08-12 15:10:52.324 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.6
+[INFO ] 2017-08-12 15:10:53.351 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 15:20:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.447
+[INFO ] 2017-08-12 15:20:52.328 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.1
+[INFO ] 2017-08-12 15:20:53.346 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 15:30:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.460
+[INFO ] 2017-08-12 15:30:51.318 [pool-5-thread-1] PiPoolScheduledTaskPersist - PiPoolScheduledTaskPersist Initiated
+[INFO ] 2017-08-12 15:30:51.349 [pool-5-thread-1] SondesPersister - Persistencia de SONDES OK.
+[INFO ] 2017-08-12 15:30:51.361 [pool-5-thread-1] RelesPersister - Persistencia de RELES OK.
+[INFO ] 2017-08-12 15:30:52.322 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.5
+[INFO ] 2017-08-12 15:30:53.336 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 15:40:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.473
+[INFO ] 2017-08-12 15:40:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.2
+[INFO ] 2017-08-12 15:40:53.348 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 15:50:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.492
+[INFO ] 2017-08-12 15:50:52.328 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.0
+[INFO ] 2017-08-12 15:50:53.348 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 16:00:04.303 [pool-3-thread-1] PiPoolScheduledTaskRele - SCHEDULER RELES - ACTIVANT [ON] el RELE: ReleBomba
+[INFO ] 2017-08-12 16:00:04.314 [pool-3-thread-1] RelesSrv - RELESRV - UPDATESTATE -> S'ha establert l'estat del Rele=ReleBomba amb Mode=AUTO, EstatRele=true i EstatPin=false.
+[INFO ] 2017-08-12 16:00:04.331 [pool-3-thread-1] PiPoolScheduledTaskRele - SCHEDULER RELES - ACTIVANT [ON] el RELE: ReleLfi
+[INFO ] 2017-08-12 16:00:04.339 [pool-3-thread-1] RelesSrv - RELESRV - UPDATESTATE -> S'ha establert l'estat del Rele=ReleLfi amb Mode=AUTO, EstatRele=true i EstatPin=false.
+[INFO ] 2017-08-12 16:00:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.502
+[INFO ] 2017-08-12 16:00:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.7
+[INFO ] 2017-08-12 16:00:53.348 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 16:10:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.809
+[INFO ] 2017-08-12 16:10:52.334 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.6
+[INFO ] 2017-08-12 16:10:53.346 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 16:20:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.824
+[INFO ] 2017-08-12 16:20:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.0
+[INFO ] 2017-08-12 16:20:53.348 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 16:30:51.318 [pool-5-thread-1] PiPoolScheduledTaskPersist - PiPoolScheduledTaskPersist Initiated
+[INFO ] 2017-08-12 16:30:51.329 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.824
+[INFO ] 2017-08-12 16:30:51.355 [pool-5-thread-1] SondesPersister - Persistencia de SONDES OK.
+[INFO ] 2017-08-12 16:30:51.373 [pool-5-thread-1] RelesPersister - Persistencia de RELES OK.
+[INFO ] 2017-08-12 16:30:52.350 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.7
+[INFO ] 2017-08-12 16:30:53.362 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 16:40:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.813
+[INFO ] 2017-08-12 16:40:52.325 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.3
+[INFO ] 2017-08-12 16:40:53.348 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 16:50:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.799
+[INFO ] 2017-08-12 16:50:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.6
+[INFO ] 2017-08-12 16:50:53.350 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 17:00:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.776
+[INFO ] 2017-08-12 17:00:52.322 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.6
+[INFO ] 2017-08-12 17:00:53.348 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 17:10:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.756
+[INFO ] 2017-08-12 17:10:52.322 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.6
+[INFO ] 2017-08-12 17:10:53.349 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 17:20:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.734
+[INFO ] 2017-08-12 17:20:52.328 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.3
+[INFO ] 2017-08-12 17:20:53.358 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 17:30:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.717
+[INFO ] 2017-08-12 17:30:51.318 [pool-5-thread-1] PiPoolScheduledTaskPersist - PiPoolScheduledTaskPersist Initiated
+[INFO ] 2017-08-12 17:30:51.342 [pool-5-thread-1] SondesPersister - Persistencia de SONDES OK.
+[INFO ] 2017-08-12 17:30:51.350 [pool-5-thread-1] RelesPersister - Persistencia de RELES OK.
+[INFO ] 2017-08-12 17:30:52.321 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.9
+[INFO ] 2017-08-12 17:30:53.345 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 17:40:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.702
+[INFO ] 2017-08-12 17:40:52.321 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1020.0
+[INFO ] 2017-08-12 17:40:53.348 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 17:50:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.682
+[INFO ] 2017-08-12 17:50:52.333 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.6
+[INFO ] 2017-08-12 17:50:53.347 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 18:00:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.701
+[INFO ] 2017-08-12 18:00:52.321 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.0
+[INFO ] 2017-08-12 18:00:53.335 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 18:10:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.875
+[INFO ] 2017-08-12 18:10:52.320 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1020.0
+[INFO ] 2017-08-12 18:10:53.336 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 18:20:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 29.038
+[INFO ] 2017-08-12 18:20:52.322 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.3
+[INFO ] 2017-08-12 18:20:53.335 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 18:30:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 29.066
+[INFO ] 2017-08-12 18:30:51.318 [pool-5-thread-1] PiPoolScheduledTaskPersist - PiPoolScheduledTaskPersist Initiated
+[INFO ] 2017-08-12 18:30:51.339 [pool-5-thread-1] SondesPersister - Persistencia de SONDES OK.
+[INFO ] 2017-08-12 18:30:51.348 [pool-5-thread-1] RelesPersister - Persistencia de RELES OK.
+[INFO ] 2017-08-12 18:30:52.320 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.6
+[INFO ] 2017-08-12 18:30:53.335 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 18:40:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 29.294
+[INFO ] 2017-08-12 18:40:52.320 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.0
+[INFO ] 2017-08-12 18:40:53.334 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 18:50:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 29.285
+[INFO ] 2017-08-12 18:50:52.321 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.6
+[INFO ] 2017-08-12 18:50:53.335 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 19:00:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 29.266
+[INFO ] 2017-08-12 19:00:52.321 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.2
+[INFO ] 2017-08-12 19:00:53.335 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 19:01:04.298 [pool-3-thread-1] PiPoolScheduledTaskRele - SCHEDULER RELES - DESACTIVANT [OFF] el RELE: ReleBomba
+[INFO ] 2017-08-12 19:01:04.304 [pool-3-thread-1] RelesSrv - RELESRV - UPDATESTATE -> S'ha establert l'estat del Rele=ReleBomba amb Mode=AUTO, EstatRele=false i EstatPin=true.
+[INFO ] 2017-08-12 19:01:04.315 [pool-3-thread-1] PiPoolScheduledTaskRele - SCHEDULER RELES - DESACTIVANT [OFF] el RELE: ReleLfi
+[INFO ] 2017-08-12 19:01:04.321 [pool-3-thread-1] RelesSrv - RELESRV - UPDATESTATE -> S'ha establert l'estat del Rele=ReleLfi amb Mode=AUTO, EstatRele=false i EstatPin=true.
+[INFO ] 2017-08-12 19:10:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 29.243
+[INFO ] 2017-08-12 19:10:52.322 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.7
+[INFO ] 2017-08-12 19:10:53.336 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 19:20:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 29.230
+[INFO ] 2017-08-12 19:20:52.322 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.8
+[INFO ] 2017-08-12 19:20:53.335 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 19:30:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 29.260
+[INFO ] 2017-08-12 19:30:51.318 [pool-5-thread-1] PiPoolScheduledTaskPersist - PiPoolScheduledTaskPersist Initiated
+[INFO ] 2017-08-12 19:30:51.351 [pool-5-thread-1] SondesPersister - Persistencia de SONDES OK.
+[INFO ] 2017-08-12 19:30:51.361 [pool-5-thread-1] RelesPersister - Persistencia de RELES OK.
+[INFO ] 2017-08-12 19:30:52.338 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.0
+[INFO ] 2017-08-12 19:30:53.353 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 19:40:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 29.286
+[INFO ] 2017-08-12 19:40:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.0
+[INFO ] 2017-08-12 19:40:53.335 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 19:50:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 29.260
+[INFO ] 2017-08-12 19:50:52.324 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.4
+[INFO ] 2017-08-12 19:50:53.337 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 20:00:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 29.266
+[INFO ] 2017-08-12 20:00:52.322 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.2
+[INFO ] 2017-08-12 20:00:53.335 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 20:10:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 29.278
+[INFO ] 2017-08-12 20:10:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.8
+[INFO ] 2017-08-12 20:10:53.335 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000

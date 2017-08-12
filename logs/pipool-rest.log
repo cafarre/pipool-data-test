@@ -7,3 +7,4 @@
 [INFO ] 2017-08-12 10:55:12.567 [qtp8641687-15] RelesRestController - Rele id:ReleLlums, releON:false, estatPin:true
 [INFO ] 2017-08-12 10:55:12.574 [qtp8641687-15] RelesRestController - Rele id:ReleLfi, releON:false, estatPin:true
 [INFO ] 2017-08-12 11:36:27.092 [qtp8641687-14] SondaTempRestController - REST - LED ON All Sondes.
+[INFO ] 2017-08-12 12:59:09.293 [qtp8641687-16] SondaTempRestController - REST - LED OFF All Sondes.
