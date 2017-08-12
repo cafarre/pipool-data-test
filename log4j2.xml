@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Properties>
+		<Property name="log-path">logs</Property>
+	</Properties>
+
+	<Appenders>
+		<Console name="console-log" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
+		</Console>
+
+		<RollingFile name="global-log" fileName="${log-path}/pipool.log"
+			filePattern="${log-path}/pipool-%d{yyyy-MM-dd}.log">
+
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+			</PatternLayout>
+
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"	modulate="true" />
+			</Policies>
+		</RollingFile>
+
+		<RollingFile name="rele-log" fileName="${log-path}/pipool-reles.log"
+			filePattern="${log-path}/pipool-reles-%d{yyyy-MM-dd}.log">
+
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+			</PatternLayout>
+
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"	modulate="true" />
+			</Policies>
+		</RollingFile>
+
+		<RollingFile name="rest-log" fileName="${log-path}/pipool-rest.log"
+			filePattern="${log-path}/pipool-rest-%d{yyyy-MM-dd}.log">
+
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+			</PatternLayout>
+
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"	modulate="true" />
+			</Policies>
+		</RollingFile>
+		
+		<RollingFile name="scheduler-log" fileName="${log-path}/pipool-scheduler.log"
+			filePattern="${log-path}/pipool-scheduler-%d{yyyy-MM-dd}.log">
+
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+			</PatternLayout>
+
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"	modulate="true" />
+			</Policies>
+		</RollingFile>
+
+	</Appenders>
+
+	<Loggers>
+
+		<Logger name="es.fdvcode.pipool.srv.RelesSrv" level="info" additivity="true">
+			<appender-ref ref="rele-log" level="info"/>
+		</Logger>
+
+		<Logger name="es.fdvcode.pipool.srv.scheduler" level="debug" additivity="true">
+			<appender-ref ref="scheduler-log" level="debug" />
+		</Logger>
+
+		<Logger name="es.fdvcode.pipool.restsrv" level="info" additivity="true">
+			<appender-ref ref="rest-log" level="info"/>
+		</Logger>
+
+		<Root level="info" additivity="true">
+			<AppenderRef ref="console-log" level="info"/>
+			<appender-ref ref="global-log" level="info"/>
+		</Root>
+	</Loggers>
+</Configuration>

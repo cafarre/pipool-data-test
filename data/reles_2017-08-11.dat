@@ -1,0 +1,7 @@
+IDRELE;TIMESTAMP;ISON;GPIOPINHIGH;MODE;DESACTRELEMASTER;ACITVTEMPORAL;ACTIVPROGRAMADA;DESCRIPCIO
+ReleBomba;11/08/2017-07:08:12;true;false;AUTO;false;es.fdvcode.pipool.model.rele.FranjaHoraria@14e8732;;RELESRV - SET ON TEMPORAL -> Rele=ReleBomba: S'ha establert la franjaTemporal=1981918 i s'ha ACTIVAT RELE [ON].
+ReleBomba;11/08/2017-07:19:00;false;true;AUTO;false;;;RELESRV SET STATE AUTO -> S'ha establert el Rele=ReleBomba amb Mode=AUTO, EstatRele=false i EstatPin=true.
+ReleBomba;11/08/2017-22:00:04;true;false;AUTO;false;;22:0-23:30;PROGRAMACIO ACTIVADA
+ReleBomba;11/08/2017-22:00:04;true;false;AUTO;false;;22:0-23:30;RELESRV SET STATE AUTO -> S'ha establert el Rele=ReleBomba amb Mode=AUTO, EstatRele=true i EstatPin=false.
+ReleLfi;11/08/2017-22:00:04;true;false;AUTO;false;;22:0-23:30;PROGRAMACIO ACTIVADA
+ReleLfi;11/08/2017-22:00:04;true;false;AUTO;false;;22:0-23:30;RELESRV SET STATE AUTO -> S'ha establert el Rele=ReleLfi amb Mode=AUTO, EstatRele=true i EstatPin=false.

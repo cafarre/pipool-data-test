@@ -1,0 +1,44 @@
+[INFO ] 2017-07-10 08:13:07.975 [qtp6065471-12] GpioRestController - Get State GPIO 22.
+[INFO ] 2017-07-10 08:26:35.684 [qtp6065471-15] GpioRestController - Get State GPIO 22.
+[INFO ] 2017-07-10 14:52:28.207 [main] MainPiPool - Starting MainPiPool v0.0.1-SNAPSHOT on rPIZeroPiscina with PID 370 (/home/pi/pipool/pipool-0.0.1-SNAPSHOT.jar started by pi in /home/pi/pipool)
+[DEBUG] 2017-07-10 14:52:28.347 [main] MainPiPool - Running with Spring Boot v1.4.3.RELEASE, Spring v4.3.5.RELEASE
+[INFO ] 2017-07-10 14:52:28.374 [main] MainPiPool - No active profile set, falling back to default profiles: default
+[INFO ] 2017-07-10 14:58:32.846 [main] MainPiPool - Starting MainPiPool v0.0.1-SNAPSHOT on rPIZeroPiscina with PID 376 (/home/pi/pipool/pipool-0.0.1-SNAPSHOT.jar started by pi in /home/pi/pipool)
+[DEBUG] 2017-07-10 14:58:32.916 [main] MainPiPool - Running with Spring Boot v1.4.3.RELEASE, Spring v4.3.5.RELEASE
+[INFO ] 2017-07-10 14:58:32.926 [main] MainPiPool - No active profile set, falling back to default profiles: default
+[INFO ] 2017-07-10 15:00:06.163 [main] PiPoolInitializer - Inicia de PiPoolInitializer.
+[INFO ] 2017-07-10 15:00:06.168 [main] RelesInitializer - Inicialitza RELE's.
+[INFO ] 2017-07-10 15:00:06.226 [main] RelesInitializer - S'han trobat 4 reles definits.
+[INFO ] 2017-07-10 15:00:06.450 [main] RelesInitializer - S'ha inicialitzat el Pin GPIO:22 amb Nom:Motor Bomba Filtre.
+[INFO ] 2017-07-10 15:00:06.570 [main] RelesInitializer - S'ha inicialitzat el Pin GPIO:23 amb Nom:Motor Bomba LFI.
+[INFO ] 2017-07-10 15:00:06.677 [main] RelesInitializer - S'ha inicialitzat el Pin GPIO:24 amb Nom:Llums Piscina.
+[INFO ] 2017-07-10 15:00:06.784 [main] RelesInitializer - S'ha inicialitzat el Pin GPIO:25 amb Nom:Ventiladors Quadre Electric.
+[INFO ] 2017-07-10 15:00:06.797 [main] PlannerInitializer - Inicialitza Planner.
+[INFO ] 2017-07-10 15:00:06.810 [main] MainPiPool - Started MainPiPool in 110.429 seconds (JVM running for 130.993)
+[INFO ] 2017-07-10 14:58:37.857 [main] MainPiPool - Starting MainPiPool v0.0.1-SNAPSHOT on rPIZeroPiscina with PID 442 (/home/pi/pipool/pipool-0.0.1-SNAPSHOT.jar started by pi in /home/pi/pipool)
+[DEBUG] 2017-07-10 14:58:37.938 [main] MainPiPool - Running with Spring Boot v1.4.3.RELEASE, Spring v4.3.5.RELEASE
+[INFO ] 2017-07-10 14:58:37.945 [main] MainPiPool - No active profile set, falling back to default profiles: default
+[INFO ] 2017-07-10 15:00:17.888 [main] PiPoolInitializer - Inicia de PiPoolInitializer.
+[INFO ] 2017-07-10 15:00:17.894 [main] RelesInitializer - Inicialitza RELE's.
+[INFO ] 2017-07-10 15:00:17.952 [main] RelesInitializer - S'han trobat 4 reles definits.
+[INFO ] 2017-07-10 15:00:18.176 [main] RelesInitializer - S'ha inicialitzat el Pin GPIO:22 amb Nom:Motor Bomba Filtre.
+[INFO ] 2017-07-10 15:00:18.296 [main] RelesInitializer - S'ha inicialitzat el Pin GPIO:23 amb Nom:Motor Bomba LFI.
+[INFO ] 2017-07-10 15:00:18.403 [main] RelesInitializer - S'ha inicialitzat el Pin GPIO:24 amb Nom:Llums Piscina.
+[INFO ] 2017-07-10 15:00:18.511 [main] RelesInitializer - S'ha inicialitzat el Pin GPIO:25 amb Nom:Ventiladors Quadre Electric.
+[INFO ] 2017-07-10 15:00:18.516 [main] PlannerInitializer - Inicialitza Planner.
+[INFO ] 2017-07-10 15:00:18.541 [main] MainPiPool - Started MainPiPool in 115.452 seconds (JVM running for 140.8)
+[INFO ] 2017-07-10 14:58:31.593 [main] MainPiPool - Starting MainPiPool v0.0.1-SNAPSHOT on rPIZeroPiscina with PID 377 (/home/pi/pipool/pipool-0.0.1-SNAPSHOT.jar started by pi in /home/pi/pipool)
+[DEBUG] 2017-07-10 14:58:31.670 [main] MainPiPool - Running with Spring Boot v1.4.3.RELEASE, Spring v4.3.5.RELEASE
+[INFO ] 2017-07-10 14:58:31.688 [main] MainPiPool - No active profile set, falling back to default profiles: default
+[INFO ] 2017-07-10 15:00:08.182 [main] PiPoolInitializer - Inicia de PiPoolInitializer.
+[INFO ] 2017-07-10 15:00:08.187 [main] RelesInitializer - Inicialitza RELE's.
+[INFO ] 2017-07-10 15:00:08.250 [main] RelesInitializer - S'han trobat 4 reles definits.
+[INFO ] 2017-07-10 15:00:08.480 [main] RelesInitializer - S'ha inicialitzat el Pin GPIO:22 amb Nom:Motor Bomba Filtre.
+[INFO ] 2017-07-10 15:00:08.598 [main] RelesInitializer - S'ha inicialitzat el Pin GPIO:23 amb Nom:Motor Bomba LFI.
+[INFO ] 2017-07-10 15:00:08.705 [main] RelesInitializer - S'ha inicialitzat el Pin GPIO:24 amb Nom:Llums Piscina.
+[INFO ] 2017-07-10 15:00:08.813 [main] RelesInitializer - S'ha inicialitzat el Pin GPIO:25 amb Nom:Ventiladors Quadre Electric.
+[INFO ] 2017-07-10 15:00:08.827 [main] PlannerInitializer - Inicialitza Planner.
+[INFO ] 2017-07-10 15:00:08.851 [main] MainPiPool - Started MainPiPool in 112.497 seconds (JVM running for 133.257)
+[INFO ] 2017-07-10 15:01:01.316 [main] MainPiPool - Starting MainPiPool v0.0.1-SNAPSHOT on rPIZeroPiscina with PID 378 (/home/pi/pipool/pipool-0.0.1-SNAPSHOT.jar started by pi in /home/pi/pipool)
+[DEBUG] 2017-07-10 15:01:01.479 [main] MainPiPool - Running with Spring Boot v1.4.3.RELEASE, Spring v4.3.5.RELEASE
+[INFO ] 2017-07-10 15:01:01.515 [main] MainPiPool - No active profile set, falling back to default profiles: default

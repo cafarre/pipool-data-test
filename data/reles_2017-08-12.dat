@@ -1,0 +1,8 @@
+IDRELE;TIMESTAMP;ISON;GPIOPINHIGH;MODE;DESACTRELEMASTER;ACITVTEMPORAL;ACTIVPROGRAMADA;DESCRIPCIO
+ReleBomba;11/08/2017-23:31:04;false;true;AUTO;false;;;RELESRV SET STATE AUTO -> S'ha establert el Rele=ReleBomba amb Mode=AUTO, EstatRele=false i EstatPin=true.
+ReleLfi;11/08/2017-23:31:04;false;true;AUTO;false;;;RELESRV SET STATE AUTO -> S'ha establert el Rele=ReleLfi amb Mode=AUTO, EstatRele=false i EstatPin=true.
+ReleBomba;12/08/2017-08:00:04;true;false;AUTO;false;;8:0-9:0;PROGRAMACIO ACTIVADA
+ReleBomba;12/08/2017-08:00:04;true;false;AUTO;false;;8:0-9:0;RELESRV SET STATE AUTO -> S'ha establert el Rele=ReleBomba amb Mode=AUTO, EstatRele=true i EstatPin=false.
+ReleBomba;12/08/2017-09:01:04;false;true;AUTO;false;;;RELESRV SET STATE AUTO -> S'ha establert el Rele=ReleBomba amb Mode=AUTO, EstatRele=false i EstatPin=true.
+ReleBomba;12/08/2017-11:00:04;true;false;AUTO;false;;11:0-14:0;PROGRAMACIO ACTIVADA
+ReleBomba;12/08/2017-11:00:04;true;false;AUTO;false;;11:0-14:0;RELESRV SET STATE AUTO -> S'ha establert el Rele=ReleBomba amb Mode=AUTO, EstatRele=true i EstatPin=false.

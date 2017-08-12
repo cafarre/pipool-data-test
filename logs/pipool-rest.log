@@ -1,0 +1,9 @@
+[INFO ] 2017-08-12 10:54:39.374 [qtp8641687-16] RelesRestController - REST - Get State of All Reles View.
+[INFO ] 2017-08-12 10:54:39.403 [qtp8641687-16] RelesRestController - Rele id:ReleBomba, releON:false, estatPin:true
+[INFO ] 2017-08-12 10:54:39.414 [qtp8641687-16] RelesRestController - Rele id:ReleLlums, releON:false, estatPin:true
+[INFO ] 2017-08-12 10:54:39.423 [qtp8641687-16] RelesRestController - Rele id:ReleLfi, releON:false, estatPin:true
+[INFO ] 2017-08-12 10:55:12.542 [qtp8641687-15] RelesRestController - REST - Get State of All Reles View.
+[INFO ] 2017-08-12 10:55:12.559 [qtp8641687-15] RelesRestController - Rele id:ReleBomba, releON:false, estatPin:true
+[INFO ] 2017-08-12 10:55:12.567 [qtp8641687-15] RelesRestController - Rele id:ReleLlums, releON:false, estatPin:true
+[INFO ] 2017-08-12 10:55:12.574 [qtp8641687-15] RelesRestController - Rele id:ReleLfi, releON:false, estatPin:true
+[INFO ] 2017-08-12 11:36:27.092 [qtp8641687-14] SondaTempRestController - REST - LED ON All Sondes.

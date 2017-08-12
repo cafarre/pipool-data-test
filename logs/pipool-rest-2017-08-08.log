@@ -1,0 +1,189 @@
+[INFO ] 2017-08-08 19:43:00.150 [qtp11510809-12] SondaTempRestController - REST - READ en Sonda RTD with address=102.
+[INFO ] 2017-08-08 19:43:01.395 [qtp11510809-12] SondaTempRestController - Sonda RTD INFO: [
+id=SondaTemp
+nom=Sonda TempºC
+address=102
+unitats=ºC
+stateSonda=-->(es.fdvcode.pipool.model.sonda.StateSonda):
+[
+sonda=es.fdvcode.pipool.model.sonda.Sonda@11162e7
+valor=31.510]
+]
+
+[INFO ] 2017-08-08 19:43:32.801 [qtp11510809-13] SondaTempRestController - REST - Read State of All Sondes.
+[INFO ] 2017-08-08 19:43:33.846 [qtp11510809-13] SondaTempRestController - Sonda Id:SondaTemp, Valor:31.511, Unitats:ºC
+[INFO ] 2017-08-08 19:43:34.877 [qtp11510809-13] SondaTempRestController - Sonda Id:SondaORP, Valor:1018.5, Unitats:mV
+[INFO ] 2017-08-08 19:43:35.910 [qtp11510809-13] SondaTempRestController - Sonda Id:SondaPH, Valor:0.000, Unitats:ph
+[INFO ] 2017-08-08 19:45:39.736 [qtp11510809-14] SondaTempRestController - REST - LED OFF All Sondes.
+[INFO ] 2017-08-08 19:46:09.147 [qtp11510809-16] SondaTempRestController - REST - LED ON All Sondes.
+[INFO ] 2017-08-08 20:04:34.152 [qtp11510809-14] RpiStateRestController - REST - Get Info rPi.
+[INFO ] 2017-08-08 20:04:34.567 [qtp11510809-14] RpiStateRestController - rPi INFO: [
+
+head=DateTimeActual=Tue Aug 08 20:04:34 CEST 2017
+tail=NetworkList=Selected interface 'wlan0'
+network id / ssid / bssid / flags
+0	WIFI HABITACIONS	any	[CURRENT]
+
+accessOrder=false]
+
+[INFO ] 2017-08-08 20:06:37.009 [qtp11510809-12] RelesRestController - REST - Get State of All Reles.
+[INFO ] 2017-08-08 20:06:37.030 [qtp11510809-12] RelesRestController - Rele id:ReleBomba, releON:false, estatPin:true
+[INFO ] 2017-08-08 20:06:37.037 [qtp11510809-12] RelesRestController - Rele id:ReleLlums, releON:false, estatPin:true
+[INFO ] 2017-08-08 20:06:37.043 [qtp11510809-12] RelesRestController - Rele id:ReleLfi, releON:false, estatPin:true
+[INFO ] 2017-08-08 21:53:52.617 [qtp11510809-15] RpiStateRestController - REST - Get Info rPi.
+[INFO ] 2017-08-08 21:53:52.778 [qtp11510809-15] RpiStateRestController - rPi INFO: [
+
+head=DateTimeActual=Tue Aug 08 21:53:52 CEST 2017
+tail=NetworkList=Selected interface 'wlan0'
+network id / ssid / bssid / flags
+0	WIFI HABITACIONS	any	[CURRENT]
+
+accessOrder=false]
+
+[INFO ] 2017-08-08 21:54:27.682 [qtp11510809-17] SondaTempRestController - REST - Read State of All Sondes.
+[INFO ] 2017-08-08 21:54:28.714 [qtp11510809-17] SondaTempRestController - Sonda Id:SondaTemp, Valor:30.630, Unitats:ºC
+[INFO ] 2017-08-08 21:54:29.755 [qtp11510809-17] SondaTempRestController - Sonda Id:SondaORP, Valor:1018.3, Unitats:mV
+[INFO ] 2017-08-08 21:54:30.794 [qtp11510809-17] SondaTempRestController - Sonda Id:SondaPH, Valor:0.000, Unitats:ph
+[INFO ] 2017-08-08 21:56:42.055 [qtp11510809-13] SondaTempRestController - REST - Get Sonda RTD with address=102.
+[INFO ] 2017-08-08 21:56:42.066 [qtp11510809-13] SondaTempRestController - Sonda RTD INFO: [
+id=SondaTemp
+nom=Sonda TempºC
+address=102
+unitats=ºC
+stateSonda=-->(es.fdvcode.pipool.model.sonda.StateSonda):
+[
+sonda=es.fdvcode.pipool.model.sonda.Sonda@11162e7
+valor=30.630]
+]
+
+[INFO ] 2017-08-08 21:56:57.907 [qtp11510809-15] SondaTempRestController - REST - Get Sonda RTD with address=102.
+[INFO ] 2017-08-08 21:56:57.916 [qtp11510809-15] SondaTempRestController - Sonda RTD INFO: [
+id=SondaTemp
+nom=Sonda TempºC
+address=102
+unitats=ºC
+stateSonda=-->(es.fdvcode.pipool.model.sonda.StateSonda):
+[
+sonda=es.fdvcode.pipool.model.sonda.Sonda@11162e7
+valor=30.630]
+]
+
+[INFO ] 2017-08-08 21:57:11.630 [qtp11510809-10] SondaTempRestController - REST - READ en Sonda RTD with address=102.
+[INFO ] 2017-08-08 21:57:12.659 [qtp11510809-10] SondaTempRestController - Sonda RTD INFO: [
+id=SondaTemp
+nom=Sonda TempºC
+address=102
+unitats=ºC
+stateSonda=-->(es.fdvcode.pipool.model.sonda.StateSonda):
+[
+sonda=es.fdvcode.pipool.model.sonda.Sonda@11162e7
+valor=30.611]
+]
+
+[INFO ] 2017-08-08 21:57:23.620 [qtp11510809-14] SondaTempRestController - REST - READ en Sonda RTD with address=102.
+[INFO ] 2017-08-08 21:57:24.652 [qtp11510809-14] SondaTempRestController - Sonda RTD INFO: [
+id=SondaTemp
+nom=Sonda TempºC
+address=102
+unitats=ºC
+stateSonda=-->(es.fdvcode.pipool.model.sonda.StateSonda):
+[
+sonda=es.fdvcode.pipool.model.sonda.Sonda@11162e7
+valor=30.595]
+]
+
+[INFO ] 2017-08-08 21:57:37.761 [qtp11510809-12] SondaTempRestController - REST - Get Sonda RTD with address=102.
+[INFO ] 2017-08-08 21:57:37.771 [qtp11510809-12] SondaTempRestController - Sonda RTD INFO: [
+id=SondaTemp
+nom=Sonda TempºC
+address=102
+unitats=ºC
+stateSonda=-->(es.fdvcode.pipool.model.sonda.StateSonda):
+[
+sonda=es.fdvcode.pipool.model.sonda.Sonda@11162e7
+valor=30.595]
+]
+
+[INFO ] 2017-08-08 21:57:47.326 [qtp11510809-17] SondaTempRestController - REST - Get Sonda RTD with address=102.
+[INFO ] 2017-08-08 21:57:47.337 [qtp11510809-17] SondaTempRestController - Sonda RTD INFO: [
+id=SondaTemp
+nom=Sonda TempºC
+address=102
+unitats=ºC
+stateSonda=-->(es.fdvcode.pipool.model.sonda.StateSonda):
+[
+sonda=es.fdvcode.pipool.model.sonda.Sonda@11162e7
+valor=30.595]
+]
+
+[INFO ] 2017-08-08 21:57:49.800 [qtp11510809-15] SondaTempRestController - REST - Get Sonda RTD with address=102.
+[INFO ] 2017-08-08 21:57:49.809 [qtp11510809-15] SondaTempRestController - Sonda RTD INFO: [
+id=SondaTemp
+nom=Sonda TempºC
+address=102
+unitats=ºC
+stateSonda=-->(es.fdvcode.pipool.model.sonda.StateSonda):
+[
+sonda=es.fdvcode.pipool.model.sonda.Sonda@11162e7
+valor=30.595]
+]
+
+[INFO ] 2017-08-08 21:57:52.599 [qtp11510809-10] SondaTempRestController - REST - Get Sonda RTD with address=102.
+[INFO ] 2017-08-08 21:57:52.618 [qtp11510809-10] SondaTempRestController - Sonda RTD INFO: [
+id=SondaTemp
+nom=Sonda TempºC
+address=102
+unitats=ºC
+stateSonda=-->(es.fdvcode.pipool.model.sonda.StateSonda):
+[
+sonda=es.fdvcode.pipool.model.sonda.Sonda@11162e7
+valor=30.595]
+]
+
+[INFO ] 2017-08-08 22:19:20.527 [qtp11510809-15] SondaTempRestController - REST - GET INFO en Sonda RTD with address=102.
+[INFO ] 2017-08-08 22:19:21.056 [qtp11510809-15] SondaTempRestController - Sonda RTD DeviceInfoResponse: [
+device=RTD
+firmware=2.10]
+
+[INFO ] 2017-08-08 22:19:49.364 [qtp11510809-16] SondaTempRestController - REST - GET INFO en Sonda RTD with address=102.
+[INFO ] 2017-08-08 22:19:49.889 [qtp11510809-16] SondaTempRestController - Sonda RTD DeviceInfoResponse: [
+device=RTD
+firmware=2.10]
+
+[INFO ] 2017-08-08 22:20:40.670 [qtp11510809-12] SondaTempRestController - REST - READ en Sonda RTD with address=102.
+[INFO ] 2017-08-08 22:20:41.702 [qtp11510809-12] SondaTempRestController - Sonda RTD INFO: [
+id=SondaTemp
+nom=Sonda TempºC
+address=102
+unitats=ºC
+stateSonda=-->(es.fdvcode.pipool.model.sonda.StateSonda):
+[
+sonda=es.fdvcode.pipool.model.sonda.Sonda@11162e7
+valor=30.331]
+]
+
+[INFO ] 2017-08-08 22:20:57.167 [qtp11510809-13] SondaTempRestController - REST - Get Sonda RTD with address=102.
+[INFO ] 2017-08-08 22:20:57.176 [qtp11510809-13] SondaTempRestController - Sonda RTD INFO: [
+id=SondaTemp
+nom=Sonda TempºC
+address=102
+unitats=ºC
+stateSonda=-->(es.fdvcode.pipool.model.sonda.StateSonda):
+[
+sonda=es.fdvcode.pipool.model.sonda.Sonda@11162e7
+valor=30.331]
+]
+
+[INFO ] 2017-08-08 22:21:26.016 [qtp11510809-17] SondaTempRestController - REST - GET STATUS en Sonda RTD with address=102.
+[INFO ] 2017-08-08 22:21:26.580 [qtp11510809-17] SondaTempRestController - Sonda RTD DeviceStatusResponse: [
+restartReason={code=P, label='Powered Off'}
+firmware=3.32]
+
+[INFO ] 2017-08-08 22:21:54.829 [qtp11510809-14] SondaTempRestController - REST - LED GET STATE en Sonda RTD with address=102.
+[INFO ] 2017-08-08 22:21:55.355 [qtp11510809-14] SondaTempRestController - Sonda SondaTemp - LED is ON? true
+[INFO ] 2017-08-08 23:55:42.695 [qtp11510809-14] SondaTempRestController - REST - Read State of All Sondes.
+[INFO ] 2017-08-08 23:55:43.731 [qtp11510809-14] SondaTempRestController - Sonda Id:SondaTemp, Valor:29.386, Unitats:ºC
+[INFO ] 2017-08-08 23:55:44.759 [qtp11510809-14] SondaTempRestController - Sonda Id:SondaORP, Valor:1018.9, Unitats:mV
+[INFO ] 2017-08-08 23:55:45.784 [qtp11510809-14] SondaTempRestController - Sonda Id:SondaPH, Valor:0.000, Unitats:ph
+[INFO ] 2017-08-08 23:56:32.683 [qtp11510809-16] SondaTempRestController - REST - CALIBRATION GET STATE en Sonda RTD with address=102.
+[INFO ] 2017-08-08 23:56:33.709 [qtp11510809-16] SondaTempRestController - SONDA: SondaTemp - CALIBRATION GET STATE: 0

@@ -1,0 +1,145 @@
+[ {
+  "id" : "ReleBomba",
+  "nom" : "Motor Bomba Filtre",
+  "gpioPin" : 25,
+  "gpioStateWhenReleOn" : false,
+  "idReleMaster" : null,
+  "calendars" : [ {
+    "id" : "ProgBombaEstiu",
+    "nom" : "Programació Bomba Estiu",
+    "diaIni" : 1,
+    "mesIni" : 6,
+    "diaFin" : 30,
+    "mesFin" : 9,
+    "listFrangesHoraries" : [ {
+      "horaIni" : 8,
+      "minutIni" : 0,
+      "horaFin" : 9,
+      "minutFin" : 0,
+      "activa" : false
+    }, {
+      "horaIni" : 11,
+      "minutIni" : 0,
+      "horaFin" : 14,
+      "minutFin" : 0,
+      "activa" : false
+    }, {
+      "horaIni" : 16,
+      "minutIni" : 0,
+      "horaFin" : 19,
+      "minutFin" : 0,
+      "activa" : true
+    }, {
+      "horaIni" : 22,
+      "minutIni" : 0,
+      "horaFin" : 23,
+      "minutFin" : 30,
+      "activa" : false
+    } ],
+    "actiu" : true
+  }, {
+    "id" : "ProgBombaHivern",
+    "nom" : "Programació Bomba Hivern",
+    "diaIni" : 1,
+    "mesIni" : 10,
+    "diaFin" : 30,
+    "mesFin" : 5,
+    "listFrangesHoraries" : [ {
+      "horaIni" : 6,
+      "minutIni" : 0,
+      "horaFin" : 9,
+      "minutFin" : 0,
+      "activa" : false
+    }, {
+      "horaIni" : 21,
+      "minutIni" : 0,
+      "horaFin" : 23,
+      "minutFin" : 30,
+      "activa" : false
+    } ],
+    "actiu" : false
+  } ],
+  "stateRele" : {
+    "gpioPinHigh" : false,
+    "activacioManual" : false,
+    "desactivacioManual" : false,
+    "desactivacioReleMaster" : false,
+    "activacioTemporal" : null,
+    "activacioProgramada" : [ ],
+    "on" : false
+  }
+}, {
+  "id" : "ReleLlums",
+  "nom" : "Llums Piscina",
+  "gpioPin" : 23,
+  "gpioStateWhenReleOn" : false,
+  "idReleMaster" : null,
+  "calendars" : null,
+  "stateRele" : {
+    "gpioPinHigh" : false,
+    "activacioManual" : false,
+    "desactivacioManual" : false,
+    "desactivacioReleMaster" : false,
+    "activacioTemporal" : null,
+    "activacioProgramada" : [ ],
+    "on" : false
+  }
+}, {
+  "id" : "ReleLfi",
+  "nom" : "Motor Bomba LFI",
+  "gpioPin" : 24,
+  "gpioStateWhenReleOn" : false,
+  "idReleMaster" : "ReleBomba",
+  "calendars" : [ {
+    "id" : "ProgBombaLfiEstiu",
+    "nom" : "Programació Bomba LFI Estiu",
+    "diaIni" : 1,
+    "mesIni" : 6,
+    "diaFin" : 30,
+    "mesFin" : 9,
+    "listFrangesHoraries" : [ {
+      "horaIni" : 16,
+      "minutIni" : 0,
+      "horaFin" : 19,
+      "minutFin" : 0,
+      "activa" : true
+    }, {
+      "horaIni" : 22,
+      "minutIni" : 0,
+      "horaFin" : 23,
+      "minutFin" : 30,
+      "activa" : false
+    } ],
+    "actiu" : true
+  }, {
+    "id" : "ProgBombaLfiHivern",
+    "nom" : "Programació Bomba LFI Hivern",
+    "diaIni" : 1,
+    "mesIni" : 10,
+    "diaFin" : 30,
+    "mesFin" : 5,
+    "listFrangesHoraries" : [ {
+      "horaIni" : 6,
+      "minutIni" : 0,
+      "horaFin" : 9,
+      "minutFin" : 0,
+      "activa" : false
+    }, {
+      "horaIni" : 21,
+      "minutIni" : 0,
+      "horaFin" : 23,
+      "minutFin" : 30,
+      "activa" : false
+    } ],
+    "actiu" : false
+  } ],
+  "stateRele" : {
+    "gpioPinHigh" : false,
+    "activacioManual" : false,
+    "desactivacioManual" : false,
+    "desactivacioReleMaster" : false,
+    "activacioTemporal" : null,
+    "activacioProgramada" : [ ],
+    "on" : false
+  }
+} ]

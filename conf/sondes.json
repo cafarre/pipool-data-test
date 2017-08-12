@@ -1,0 +1,16 @@
+[ {
+  "id" : "SondaTemp",
+  "nom" : "Sonda TempºC",
+  "address" : 102,
+  "unitats" : "ºC"
+}, {
+  "id" : "SondaORP",
+  "nom" : "Sonda ORP/Redox",
+  "address" : 98,
+  "unitats" : "mV"
+}, {
+  "id" : "SondaPH",
+  "nom" : "Sonda PH",
+  "address" : 99,
+  "unitats" : "ph"
+} ]

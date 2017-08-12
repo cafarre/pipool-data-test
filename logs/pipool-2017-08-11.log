@@ -1,0 +1,817 @@
+[INFO ] 2017-08-11 15:44:24.731 [background-preinit] Version - HV000001: Hibernate Validator 5.2.4.Final
+[INFO ] 2017-08-11 15:44:24.474 [main] MainPiPool - Starting MainPiPool v0.0.2-SNAPSHOT on rPIZeroPiscinav2 with PID 439 (/home/pi/pipool/pipool.jar started by pi in /home/pi/pipool)
+[INFO ] 2017-08-11 15:44:24.864 [main] MainPiPool - The following profiles are active: Prod
+[INFO ] 2017-08-11 15:44:27.104 [main] AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@136f0f5: startup date [Fri Aug 11 15:44:26 CEST 2017]; root of context hierarchy
+[INFO ] 2017-08-11 15:44:50.070 [main] DefaultListableBeanFactory - Overriding bean definition for bean 'sondaAtlasORP' with a different definition: replacing [Generic bean: class [es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasORP]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/home/pi/pipool/pipool.jar!/BOOT-INF/classes!/es/fdvcode/pipool/srv/sonda/atlasi2c/impl/SondaAtlasORP.class]] with [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=true; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DIConfig; factoryMethodName=sondaAtlasORP; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [es/fdvcode/pipool/DIConfig.class]]
+[INFO ] 2017-08-11 15:44:50.090 [main] DefaultListableBeanFactory - Overriding bean definition for bean 'sondaAtlasPH' with a different definition: replacing [Generic bean: class [es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasPH]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/home/pi/pipool/pipool.jar!/BOOT-INF/classes!/es/fdvcode/pipool/srv/sonda/atlasi2c/impl/SondaAtlasPH.class]] with [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=true; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DIConfig; factoryMethodName=sondaAtlasPH; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [es/fdvcode/pipool/DIConfig.class]]
+[INFO ] 2017-08-11 15:44:50.127 [main] DefaultListableBeanFactory - Overriding bean definition for bean 'sondaAtlasRTD' with a different definition: replacing [Generic bean: class [es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasRTD]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/home/pi/pipool/pipool.jar!/BOOT-INF/classes!/es/fdvcode/pipool/srv/sonda/atlasi2c/impl/SondaAtlasRTD.class]] with [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=true; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DIConfig; factoryMethodName=sondaAtlasRTD; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [es/fdvcode/pipool/DIConfig.class]]
+[INFO ] 2017-08-11 15:44:50.148 [main] DefaultListableBeanFactory - Overriding bean definition for bean 'deviceAtlasI2CImpl' with a different definition: replacing [Generic bean: class [es.fdvcode.pipool.srv.sonda.atlasi2c.impl.DeviceAtlasI2CImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/home/pi/pipool/pipool.jar!/BOOT-INF/classes!/es/fdvcode/pipool/srv/sonda/atlasi2c/impl/DeviceAtlasI2CImpl.class]] with [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=true; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DIConfig; factoryMethodName=deviceAtlasI2CImpl; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [es/fdvcode/pipool/DIConfig.class]]
+[INFO ] 2017-08-11 15:45:09.437 [main] log - Logging initialized @82927ms
+[INFO ] 2017-08-11 15:45:12.247 [main] JettyEmbeddedServletContainerFactory - Server initialized with port: 8045
+[INFO ] 2017-08-11 15:45:12.305 [main] Server - jetty-9.3.14.v20161028
+[INFO ] 2017-08-11 15:45:14.936 [main] application - Initializing Spring embedded WebApplicationContext
+[INFO ] 2017-08-11 15:45:14.950 [main] ContextLoader - Root WebApplicationContext: initialization completed in 47959 ms
+[INFO ] 2017-08-11 15:45:21.709 [main] ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] 2017-08-11 15:45:21.763 [main] FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+[INFO ] 2017-08-11 15:45:21.769 [main] FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2017-08-11 15:45:21.774 [main] FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2017-08-11 15:45:21.780 [main] FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2017-08-11 15:45:21.785 [main] FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2017-08-11 15:45:21.790 [main] FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[INFO ] 2017-08-11 15:45:21.796 [main] FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+[INFO ] 2017-08-11 15:45:25.291 [main] ContextHandler - Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@1a0406{/,file:///tmp/jetty-docbase.3330304760692876366.8045/,AVAILABLE}
+[INFO ] 2017-08-11 15:45:25.303 [main] Server - Started @98808ms
+[INFO ] 2017-08-11 15:45:27.167 [main] RelesLoader - Inicialitza RELE's.
+[INFO ] 2017-08-11 15:45:28.745 [main] RelesLoader - JSON de Rele llegit i carregat OK.
+[INFO ] 2017-08-11 15:45:28.783 [main] RelesLoader - S'han trobat 3 reles definits.
+[INFO ] 2017-08-11 15:45:29.365 [main] SondesLoader - Inicialitza SONDES's.
+[INFO ] 2017-08-11 15:45:29.413 [main] SondesLoader - JSON de Sonda llegida i carregada OK.
+[INFO ] 2017-08-11 15:45:29.419 [main] SondesLoader - S'han trobat 3 sondes definides.
+[INFO ] 2017-08-11 15:45:29.907 [main] DeviceAtlasI2C - Connectat al bus i2C. OK.
+[INFO ] 2017-08-11 15:45:30.033 [main] SondesSrv - Sonda Atlas SondaTemp iniciada OK.
+[INFO ] 2017-08-11 15:45:30.120 [main] DeviceAtlasI2C - Connectat al bus i2C. OK.
+[INFO ] 2017-08-11 15:45:30.141 [main] SondesSrv - Sonda Atlas SondaORP iniciada OK.
+[INFO ] 2017-08-11 15:45:30.244 [main] DeviceAtlasI2C - Connectat al bus i2C. OK.
+[INFO ] 2017-08-11 15:45:30.262 [main] SondesSrv - Sonda Atlas SondaPH iniciada OK.
+[INFO ] 2017-08-11 15:45:40.400 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@136f0f5: startup date [Fri Aug 11 15:44:26 CEST 2017]; root of context hierarchy
+[INFO ] 2017-08-11 15:45:42.437 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/gpio/toggle],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.GpioRestController.toggle(int)
+[INFO ] 2017-08-11 15:45:42.454 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/gpio/state],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.GpioRestController.getState(int)
+[INFO ] 2017-08-11 15:45:42.514 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/reload],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.rele.Rele>> es.fdvcode.pipool.restsrv.v1.RelesRestController.reload()
+[INFO ] 2017-08-11 15:45:42.521 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/on],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.on(java.lang.String)
+[INFO ] 2017-08-11 15:45:42.529 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/ontemporal],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.onTemporal(java.lang.String,int)
+[INFO ] 2017-08-11 15:45:42.536 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/{id}],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.getRele(java.lang.String)
+[INFO ] 2017-08-11 15:45:42.543 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/canceltemporal],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.cancelTemporal(java.lang.String)
+[INFO ] 2017-08-11 15:45:42.550 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/auto],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.auto(java.lang.String)
+[INFO ] 2017-08-11 15:45:42.558 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/allinfo],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.rele.Rele>> es.fdvcode.pipool.restsrv.v1.RelesRestController.getAllInfo()
+[INFO ] 2017-08-11 15:45:42.565 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/allstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.List<java.lang.String>> es.fdvcode.pipool.restsrv.v1.RelesRestController.getAllState()
+[INFO ] 2017-08-11 15:45:42.573 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/off],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.off(java.lang.String)
+[INFO ] 2017-08-11 15:45:42.597 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/rpistate/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.RpiStateRestController.info()
+[INFO ] 2017-08-11 15:45:42.604 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/rpistate/ping],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.RpiStateRestController.ping()
+[INFO ] 2017-08-11 15:45:42.611 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/rpistate/reboot],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.RpiStateRestController.reboot()
+[INFO ] 2017-08-11 15:45:42.718 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.info()
+[INFO ] 2017-08-11 15:45:42.728 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/start/sonda],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.startSonda(int)
+[INFO ] 2017-08-11 15:45:42.736 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/stop/sonda],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.stopSonda()
+[INFO ] 2017-08-11 15:45:42.743 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/start/persist],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.startPersist(int)
+[INFO ] 2017-08-11 15:45:42.750 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/stop/persist],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.stopPersist()
+[INFO ] 2017-08-11 15:45:42.758 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/start/rele],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.startRele(int)
+[INFO ] 2017-08-11 15:45:42.766 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/stop/rele],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.stopRele()
+[INFO ] 2017-08-11 15:45:42.877 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/setcalibration],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaORPRestController.calibration(java.lang.String)
+[INFO ] 2017-08-11 15:45:42.885 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/reloadall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.reload()
+[INFO ] 2017-08-11 15:45:42.899 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceInfoResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.info()
+[INFO ] 2017-08-11 15:45:42.908 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/get],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.getSonda()
+[INFO ] 2017-08-11 15:45:42.915 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/getall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.getAllSondes()
+[INFO ] 2017-08-11 15:45:42.923 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledon],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOn()
+[INFO ] 2017-08-11 15:45:42.930 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledoff],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOff()
+[INFO ] 2017-08-11 15:45:42.939 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledState()
+[INFO ] 2017-08-11 15:45:42.946 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledonall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOnAll()
+[INFO ] 2017-08-11 15:45:42.954 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledoffall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOffAll()
+[INFO ] 2017-08-11 15:45:42.962 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/sleepall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleepAll()
+[INFO ] 2017-08-11 15:45:42.971 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/wakeup],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeup()
+[INFO ] 2017-08-11 15:45:42.980 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/wakeupall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeupAll()
+[INFO ] 2017-08-11 15:45:42.988 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/calibrationclear],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationClear()
+[INFO ] 2017-08-11 15:45:42.997 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/calibrationstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Integer> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationGetState()
+[INFO ] 2017-08-11 15:45:43.005 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/execmd],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.String> es.fdvcode.pipool.restsrv.v1.SondesRestController.execCommand(java.lang.String)
+[INFO ] 2017-08-11 15:45:43.014 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/read],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.read()
+[INFO ] 2017-08-11 15:45:43.023 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/sleep],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleep()
+[INFO ] 2017-08-11 15:45:43.033 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/status],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceStatusResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.status()
+[INFO ] 2017-08-11 15:45:43.042 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/readall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.readAll()
+[INFO ] 2017-08-11 15:45:43.192 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/setcalibrationmid],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.calibrationMid(java.lang.String)
+[INFO ] 2017-08-11 15:45:43.201 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/setcalibrationlow],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.calibrationLow(java.lang.String)
+[INFO ] 2017-08-11 15:45:43.210 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/setcalibrationhigh],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.calibrationHigh(java.lang.String)
+[INFO ] 2017-08-11 15:45:43.219 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/slope],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasPH$SlopeResponse> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.slope()
+[INFO ] 2017-08-11 15:45:43.228 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/gettempcompensation],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.String> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.getTempCompensation()
+[INFO ] 2017-08-11 15:45:43.237 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/settempcompensation],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.setTempCompensation(java.lang.String)
+[INFO ] 2017-08-11 15:45:43.250 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/reloadall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.reload()
+[INFO ] 2017-08-11 15:45:43.259 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceInfoResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.info()
+[INFO ] 2017-08-11 15:45:43.276 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/get],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.getSonda()
+[INFO ] 2017-08-11 15:45:43.285 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/getall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.getAllSondes()
+[INFO ] 2017-08-11 15:45:43.295 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledon],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOn()
+[INFO ] 2017-08-11 15:45:43.303 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledoff],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOff()
+[INFO ] 2017-08-11 15:45:43.312 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledState()
+[INFO ] 2017-08-11 15:45:43.327 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledonall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOnAll()
+[INFO ] 2017-08-11 15:45:43.336 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledoffall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOffAll()
+[INFO ] 2017-08-11 15:45:43.345 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/sleepall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleepAll()
+[INFO ] 2017-08-11 15:45:43.353 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/wakeup],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeup()
+[INFO ] 2017-08-11 15:45:43.362 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/wakeupall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeupAll()
+[INFO ] 2017-08-11 15:45:43.370 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/calibrationclear],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationClear()
+[INFO ] 2017-08-11 15:45:43.379 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/calibrationstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Integer> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationGetState()
+[INFO ] 2017-08-11 15:45:43.387 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/execmd],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.String> es.fdvcode.pipool.restsrv.v1.SondesRestController.execCommand(java.lang.String)
+[INFO ] 2017-08-11 15:45:43.396 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/read],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.read()
+[INFO ] 2017-08-11 15:45:43.404 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/sleep],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleep()
+[INFO ] 2017-08-11 15:45:43.413 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/status],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceStatusResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.status()
+[INFO ] 2017-08-11 15:45:43.421 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/readall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.readAll()
+[INFO ] 2017-08-11 15:45:43.570 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/setcalibration],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaTempRestController.calibration(java.lang.String)
+[INFO ] 2017-08-11 15:45:43.579 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/reloadall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.reload()
+[INFO ] 2017-08-11 15:45:43.588 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceInfoResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.info()
+[INFO ] 2017-08-11 15:45:43.606 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/get],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.getSonda()
+[INFO ] 2017-08-11 15:45:43.614 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/getall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.getAllSondes()
+[INFO ] 2017-08-11 15:45:43.627 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledon],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOn()
+[INFO ] 2017-08-11 15:45:43.641 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledoff],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOff()
+[INFO ] 2017-08-11 15:45:43.655 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledState()
+[INFO ] 2017-08-11 15:45:43.664 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledonall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOnAll()
+[INFO ] 2017-08-11 15:45:43.674 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledoffall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOffAll()
+[INFO ] 2017-08-11 15:45:43.682 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/sleepall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleepAll()
+[INFO ] 2017-08-11 15:45:43.691 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/wakeup],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeup()
+[INFO ] 2017-08-11 15:45:43.699 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/wakeupall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeupAll()
+[INFO ] 2017-08-11 15:45:43.708 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/calibrationclear],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationClear()
+[INFO ] 2017-08-11 15:45:43.718 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/calibrationstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Integer> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationGetState()
+[INFO ] 2017-08-11 15:45:43.726 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/execmd],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.String> es.fdvcode.pipool.restsrv.v1.SondesRestController.execCommand(java.lang.String)
+[INFO ] 2017-08-11 15:45:43.735 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/read],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.read()
+[INFO ] 2017-08-11 15:45:43.747 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/sleep],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleep()
+[INFO ] 2017-08-11 15:45:43.756 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/status],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceStatusResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.status()
+[INFO ] 2017-08-11 15:45:43.764 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/readall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.readAll()
+[INFO ] 2017-08-11 15:45:43.837 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-08-11 15:45:43.846 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-08-11 15:45:45.152 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-08-11 15:45:45.157 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-08-11 15:45:46.519 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-08-11 15:45:55.917 [main] EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+[INFO ] 2017-08-11 15:45:56.026 [main] EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 15:45:56.049 [main] EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 15:45:56.082 [main] EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+[INFO ] 2017-08-11 15:45:56.089 [main] EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 15:45:56.125 [main] EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+[INFO ] 2017-08-11 15:45:56.131 [main] EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 15:45:56.164 [main] EndpointHandlerMapping - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+[INFO ] 2017-08-11 15:45:56.189 [main] EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 15:45:56.211 [main] EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 15:45:56.279 [main] EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 15:45:56.304 [main] EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 15:45:56.329 [main] EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 15:46:01.453 [main] AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+[INFO ] 2017-08-11 15:46:01.631 [main] EndpointMBeanExporter - Registering beans for JMX exposure on startup
+[INFO ] 2017-08-11 15:46:01.748 [main] DefaultLifecycleProcessor - Starting beans in phase 0
+[INFO ] 2017-08-11 15:46:01.813 [main] EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+[INFO ] 2017-08-11 15:46:02.500 [main] EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+[INFO ] 2017-08-11 15:46:02.601 [main] EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+[INFO ] 2017-08-11 15:46:02.672 [main] EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+[INFO ] 2017-08-11 15:46:02.748 [main] EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+[INFO ] 2017-08-11 15:46:02.837 [main] EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+[INFO ] 2017-08-11 15:46:02.915 [main] EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+[INFO ] 2017-08-11 15:46:02.993 [main] EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+[INFO ] 2017-08-11 15:46:03.127 [main] EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+[INFO ] 2017-08-11 15:46:03.315 [main] EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+[INFO ] 2017-08-11 15:46:03.858 [main] application - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 2017-08-11 15:46:03.863 [main] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-08-11 15:46:04.224 [main] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 351 ms
+[INFO ] 2017-08-11 15:46:04.704 [main] AbstractConnector - Started ServerConnector@17f04ba{HTTP/1.1,[http/1.1]}{0.0.0.0:8045}
+[INFO ] 2017-08-11 15:46:04.763 [main] JettyEmbeddedServletContainer - Jetty started on port(s) 8045 (http/1.1)
+[INFO ] 2017-08-11 15:46:04.847 [main] PiPoolInitializer - Inicialització de PiPool.
+[INFO ] 2017-08-11 15:46:04.852 [main] RelesSrv - Inicialitza GPios dels RELE's.
+[INFO ] 2017-08-11 15:46:05.107 [main] RelesSrv - S'ha inicialitzat el Pin GPIO:25 amb Nom:Motor Bomba Filtre, isON:false i GpioPinHigh:true.
+[INFO ] 2017-08-11 15:46:05.224 [main] RelesSrv - S'ha inicialitzat el Pin GPIO:23 amb Nom:Llums Piscina, isON:false i GpioPinHigh:true.
+[INFO ] 2017-08-11 15:46:05.330 [main] RelesSrv - S'ha inicialitzat el Pin GPIO:24 amb Nom:Motor Bomba LFI, isON:false i GpioPinHigh:true.
+[INFO ] 2017-08-11 15:46:05.337 [main] SchedulerSrv - Start Scheduler RELES amb initialDelay=0 y periodSeconds=5.
+[INFO ] 2017-08-11 15:46:05.345 [main] SchedulerSrv - Start Scheduler SONDES amb initialDelay=1 y periodSeconds=600.
+[INFO ] 2017-08-11 15:46:05.366 [main] MainPiPool - Started MainPiPool in 64605.211 seconds (JVM running for 138.875)
+[INFO ] 2017-08-11 15:46:07.467 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.933
+[INFO ] 2017-08-11 15:46:08.491 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 82.1
+[INFO ] 2017-08-11 15:46:09.505 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 1.284
+[INFO ] 2017-08-11 15:56:07.358 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.952
+[INFO ] 2017-08-11 15:56:08.388 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.4
+[INFO ] 2017-08-11 15:56:09.402 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 16:00:00.360 [pool-3-thread-1] RelesRunner - SCHEDULER - ACTIVANT [ON] el RELE: ReleBomba
+[INFO ] 2017-08-11 16:00:00.369 [pool-3-thread-1] RelesSrv - RELESRV - S'ha establert el Rele=ReleBomba amb estatRele=true i estatPin=false.
+[INFO ] 2017-08-11 16:00:00.384 [pool-3-thread-1] RelesRunner - SCHEDULER - ACTIVANT [ON] el RELE: ReleLfi
+[INFO ] 2017-08-11 16:00:00.390 [pool-3-thread-1] RelesSrv - RELESRV - S'ha establert el Rele=ReleLfi amb estatRele=true i estatPin=false.
+[INFO ] 2017-08-11 16:06:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.967
+[INFO ] 2017-08-11 16:06:08.398 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.4
+[INFO ] 2017-08-11 16:06:09.413 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 16:16:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.941
+[INFO ] 2017-08-11 16:16:08.381 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.8
+[INFO ] 2017-08-11 16:16:09.395 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 16:26:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.725
+[INFO ] 2017-08-11 16:26:08.380 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.4
+[INFO ] 2017-08-11 16:26:09.395 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 16:36:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.719
+[INFO ] 2017-08-11 16:36:08.381 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.4
+[INFO ] 2017-08-11 16:36:09.396 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 16:46:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.702
+[INFO ] 2017-08-11 16:46:08.380 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.2
+[INFO ] 2017-08-11 16:46:09.395 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 16:56:07.362 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.673
+[INFO ] 2017-08-11 16:56:08.398 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.5
+[INFO ] 2017-08-11 16:56:09.412 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 17:06:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.648
+[INFO ] 2017-08-11 17:06:08.381 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.7
+[INFO ] 2017-08-11 17:06:09.396 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 17:16:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.499
+[INFO ] 2017-08-11 17:16:08.391 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.5
+[INFO ] 2017-08-11 17:16:09.406 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 17:26:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.513
+[INFO ] 2017-08-11 17:26:08.396 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.5
+[INFO ] 2017-08-11 17:26:09.412 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 17:31:53.564 [qtp11158002-12] RpiStateRestController - REST - Get Info rPi.
+[ERROR] 2017-08-11 17:31:53.593 [qtp11158002-12] RpiStateRestController - null
+java.lang.NullPointerException
+	at es.fdvcode.pipool.restsrv.v1.RpiStateRestController.getInfo(RpiStateRestController.java:100) [classes!/:0.0.2-SNAPSHOT]
+	at es.fdvcode.pipool.restsrv.v1.RpiStateRestController.info(RpiStateRestController.java:55) [classes!/:0.0.2-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:220) [spring-web-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) [spring-web-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) [spring-webmvc-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) [spring-webmvc-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) [spring-webmvc-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) [spring-webmvc-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) [spring-webmvc-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) [spring-webmvc-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) [javax.servlet-api-3.1.0.jar!/:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [javax.servlet-api-3.1.0.jar!/:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:845) [jetty-servlet-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1712) [jetty-servlet-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:247) [websocket-server-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1699) [jetty-servlet-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55) [spring-boot-1.4.3.RELEASE.jar!/:1.4.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1699) [jetty-servlet-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:105) [spring-boot-actuator-1.4.3.RELEASE.jar!/:1.4.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1699) [jetty-servlet-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1699) [jetty-servlet-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89) [spring-web-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1699) [jetty-servlet-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) [spring-web-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1699) [jetty-servlet-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1699) [jetty-servlet-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106) [spring-boot-actuator-1.4.3.RELEASE.jar!/:1.4.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1699) [jetty-servlet-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582) [jetty-servlet-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [jetty-server-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180) [jetty-server-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512) [jetty-servlet-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [jetty-server-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112) [jetty-server-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:462) [jetty-server-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [jetty-server-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.server.Server.handle(Server.java:534) [jetty-server-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320) [jetty-server-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273) [jetty-io-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95) [jetty-io-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [jetty-io-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [jetty-util-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [jetty-util-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [jetty-util-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [jetty-util-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [jetty-util-9.3.14.v20161028.jar!/:9.3.14.v20161028]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+[INFO ] 2017-08-11 17:31:54.205 [qtp11158002-12] RpiStateRestController - rPi INFO: [, head=DateTimeAppStarted=Fri Aug 11 15:46:05 CEST 2017, tail=NetworkList=Selected interface 'wlan0'
+network id / ssid / bssid / flags
+0	WIFI HABITACIONS	any	[CURRENT]
+, accessOrder=false]
+[INFO ] 2017-08-11 17:36:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.518
+[INFO ] 2017-08-11 17:36:08.372 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.3
+[INFO ] 2017-08-11 17:36:09.386 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 17:46:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.530
+[INFO ] 2017-08-11 17:46:08.371 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.6
+[INFO ] 2017-08-11 17:46:09.385 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 17:56:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.551
+[INFO ] 2017-08-11 17:56:08.372 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.9
+[INFO ] 2017-08-11 17:56:09.386 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 18:06:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.578
+[INFO ] 2017-08-11 18:06:08.372 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.1
+[INFO ] 2017-08-11 18:06:09.385 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 18:12:36.464 [qtp11158002-13] RelesRestController - REST - Get State of All Reles.
+[INFO ] 2017-08-11 18:12:36.473 [qtp11158002-13] RelesRestController - Rele id:ReleBomba, releON:true, estatPin:false
+[INFO ] 2017-08-11 18:12:36.479 [qtp11158002-13] RelesRestController - Rele id:ReleLlums, releON:false, estatPin:true
+[INFO ] 2017-08-11 18:12:36.484 [qtp11158002-13] RelesRestController - Rele id:ReleLfi, releON:true, estatPin:false
+[INFO ] 2017-08-11 18:16:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.594
+[INFO ] 2017-08-11 18:16:08.373 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.9
+[INFO ] 2017-08-11 18:16:09.386 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 18:26:07.367 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.603
+[INFO ] 2017-08-11 18:26:08.382 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.7
+[INFO ] 2017-08-11 18:26:09.395 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 18:36:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.622
+[INFO ] 2017-08-11 18:36:08.373 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.9
+[INFO ] 2017-08-11 18:36:09.386 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 18:46:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.487
+[INFO ] 2017-08-11 18:46:08.374 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.8
+[INFO ] 2017-08-11 18:46:09.386 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 18:56:07.357 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.491
+[INFO ] 2017-08-11 18:56:08.373 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.9
+[INFO ] 2017-08-11 18:56:09.386 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 19:01:00.354 [pool-3-thread-1] RelesRunner - SCHEDULER - DESACTIVANT [OFF] el RELE: ReleBomba
+[INFO ] 2017-08-11 19:01:00.364 [pool-3-thread-1] RelesSrv - RELESRV - S'ha establert el Rele=ReleBomba amb estatRele=false i estatPin=true.
+[INFO ] 2017-08-11 19:01:00.380 [pool-3-thread-1] RelesRunner - SCHEDULER - DESACTIVANT [OFF] el RELE: ReleLfi
+[INFO ] 2017-08-11 19:01:00.389 [pool-3-thread-1] RelesSrv - RELESRV - S'ha establert el Rele=ReleLfi amb estatRele=false i estatPin=true.
+[INFO ] 2017-08-11 19:01:43.178 [Thread-11] AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@136f0f5: startup date [Fri Aug 11 15:44:26 CEST 2017]; root of context hierarchy
+[INFO ] 2017-08-11 19:01:43.269 [Thread-11] DefaultLifecycleProcessor - Stopping beans in phase 0
+[WARN ] 2017-08-11 19:01:43.285 [Thread-11] DefaultLifecycleProcessor - Failed to stop bean 'endpointMBeanExporter'
+java.lang.NoClassDefFoundError: org/springframework/context/support/DefaultLifecycleProcessor$1
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:229) [spring-context-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$300(DefaultLifecycleProcessor.java:51) [spring-context-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:363) [spring-context-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:202) [spring-context-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:118) [spring-context-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1002) [spring-context-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:928) [spring-context-4.3.5.RELEASE.jar!/:4.3.5.RELEASE]
+Caused by: java.lang.ClassNotFoundException: org.springframework.context.support.DefaultLifecycleProcessor$1
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_131]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_131]
+	at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:94) ~[pipool.jar:0.0.2-SNAPSHOT]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_131]
+	... 7 more
+[WARN ] 2017-08-11 19:02:13.310 [Thread-11] DefaultLifecycleProcessor - Failed to shut down 1 bean with phase value 0 within timeout of 30000: [endpointMBeanExporter]
+[INFO ] 2017-08-11 19:02:13.322 [Thread-11] EndpointMBeanExporter - Unregistering JMX-exposed beans on shutdown
+[INFO ] 2017-08-11 19:02:13.329 [Thread-11] EndpointMBeanExporter - Unregistering JMX-exposed beans
+[INFO ] 2017-08-11 19:02:13.345 [Thread-11] AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+[INFO ] 2017-08-11 19:02:13.379 [Thread-11] PiPoolInitializer - Tancant PiPool de forma controlada.
+[WARN ] 2017-08-11 19:02:13.426 [Thread-11] DisposableBeanAdapter - Invocation of destroy method 'shutdown' failed on bean with name 'gpioController': java.lang.NoClassDefFoundError: com/pi4j/concurrent/DefaultExecutorServiceFactory
+[INFO ] 2017-08-11 19:02:45.047 [background-preinit] Version - HV000001: Hibernate Validator 5.2.4.Final
+[INFO ] 2017-08-11 19:02:45.052 [main] MainPiPool - Starting MainPiPool v0.0.2-SNAPSHOT on rPIZeroPiscinav2 with PID 1061 (/home/pi/pipool/pipool.jar started by pi in /home/pi/pipool)
+[INFO ] 2017-08-11 19:02:45.103 [main] MainPiPool - The following profiles are active: Prod
+[INFO ] 2017-08-11 19:02:47.285 [main] AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69b199: startup date [Fri Aug 11 19:02:47 CEST 2017]; root of context hierarchy
+[INFO ] 2017-08-11 19:03:09.583 [main] DefaultListableBeanFactory - Overriding bean definition for bean 'sondaAtlasORP' with a different definition: replacing [Generic bean: class [es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasORP]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/home/pi/pipool/pipool.jar!/BOOT-INF/classes!/es/fdvcode/pipool/srv/sonda/atlasi2c/impl/SondaAtlasORP.class]] with [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=true; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DIConfig; factoryMethodName=sondaAtlasORP; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [es/fdvcode/pipool/DIConfig.class]]
+[INFO ] 2017-08-11 19:03:09.610 [main] DefaultListableBeanFactory - Overriding bean definition for bean 'sondaAtlasPH' with a different definition: replacing [Generic bean: class [es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasPH]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/home/pi/pipool/pipool.jar!/BOOT-INF/classes!/es/fdvcode/pipool/srv/sonda/atlasi2c/impl/SondaAtlasPH.class]] with [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=true; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DIConfig; factoryMethodName=sondaAtlasPH; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [es/fdvcode/pipool/DIConfig.class]]
+[INFO ] 2017-08-11 19:03:09.634 [main] DefaultListableBeanFactory - Overriding bean definition for bean 'sondaAtlasRTD' with a different definition: replacing [Generic bean: class [es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasRTD]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/home/pi/pipool/pipool.jar!/BOOT-INF/classes!/es/fdvcode/pipool/srv/sonda/atlasi2c/impl/SondaAtlasRTD.class]] with [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=true; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DIConfig; factoryMethodName=sondaAtlasRTD; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [es/fdvcode/pipool/DIConfig.class]]
+[INFO ] 2017-08-11 19:03:09.660 [main] DefaultListableBeanFactory - Overriding bean definition for bean 'deviceAtlasI2CImpl' with a different definition: replacing [Generic bean: class [es.fdvcode.pipool.srv.sonda.atlasi2c.impl.DeviceAtlasI2CImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/home/pi/pipool/pipool.jar!/BOOT-INF/classes!/es/fdvcode/pipool/srv/sonda/atlasi2c/impl/DeviceAtlasI2CImpl.class]] with [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=true; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DIConfig; factoryMethodName=deviceAtlasI2CImpl; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [es/fdvcode/pipool/DIConfig.class]]
+[INFO ] 2017-08-11 19:03:28.493 [main] log - Logging initialized @74304ms
+[INFO ] 2017-08-11 19:03:31.123 [main] JettyEmbeddedServletContainerFactory - Server initialized with port: 8045
+[INFO ] 2017-08-11 19:03:31.171 [main] Server - jetty-9.3.14.v20161028
+[INFO ] 2017-08-11 19:03:33.429 [main] application - Initializing Spring embedded WebApplicationContext
+[INFO ] 2017-08-11 19:03:33.437 [main] ContextLoader - Root WebApplicationContext: initialization completed in 46296 ms
+[INFO ] 2017-08-11 19:03:39.307 [main] ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] 2017-08-11 19:03:39.360 [main] FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+[INFO ] 2017-08-11 19:03:39.368 [main] FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2017-08-11 19:03:39.376 [main] FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2017-08-11 19:03:39.383 [main] FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2017-08-11 19:03:39.390 [main] FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2017-08-11 19:03:39.398 [main] FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[INFO ] 2017-08-11 19:03:39.405 [main] FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+[INFO ] 2017-08-11 19:03:43.297 [main] ContextHandler - Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@1191845{/,file:///tmp/jetty-docbase.5499476027158266892.8045/,AVAILABLE}
+[INFO ] 2017-08-11 19:03:43.309 [main] Server - Started @89134ms
+[INFO ] 2017-08-11 19:03:45.262 [main] RelesLoader - Inicialitza RELE's.
+[INFO ] 2017-08-11 19:03:46.838 [main] RelesLoader - JSON de Rele llegit i carregat OK.
+[INFO ] 2017-08-11 19:03:46.870 [main] RelesLoader - S'han trobat 3 reles definits.
+[INFO ] 2017-08-11 19:03:47.271 [main] SondesLoader - Inicialitza SONDES's.
+[INFO ] 2017-08-11 19:03:47.312 [main] SondesLoader - JSON de Sonda llegida i carregada OK.
+[INFO ] 2017-08-11 19:03:47.318 [main] SondesLoader - S'han trobat 3 sondes definides.
+[INFO ] 2017-08-11 19:03:47.852 [main] DeviceAtlasI2C - Connectat al bus i2C. OK.
+[INFO ] 2017-08-11 19:03:47.989 [main] SondesSrv - Sonda Atlas SondaTemp iniciada OK.
+[INFO ] 2017-08-11 19:03:48.082 [main] DeviceAtlasI2C - Connectat al bus i2C. OK.
+[INFO ] 2017-08-11 19:03:48.116 [main] SondesSrv - Sonda Atlas SondaORP iniciada OK.
+[INFO ] 2017-08-11 19:03:48.226 [main] DeviceAtlasI2C - Connectat al bus i2C. OK.
+[INFO ] 2017-08-11 19:03:48.248 [main] SondesSrv - Sonda Atlas SondaPH iniciada OK.
+[INFO ] 2017-08-11 19:03:58.102 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69b199: startup date [Fri Aug 11 19:02:47 CEST 2017]; root of context hierarchy
+[INFO ] 2017-08-11 19:03:59.948 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/gpio/toggle],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.GpioRestController.toggle(int)
+[INFO ] 2017-08-11 19:03:59.969 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/gpio/state],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.GpioRestController.getState(int)
+[INFO ] 2017-08-11 19:04:00.062 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/on],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.on(java.lang.String)
+[INFO ] 2017-08-11 19:04:00.073 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/ontemporal],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.onTemporal(java.lang.String,int)
+[INFO ] 2017-08-11 19:04:00.083 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/canceltemporal],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.cancelTemporal(java.lang.String)
+[INFO ] 2017-08-11 19:04:00.092 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/auto],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.auto(java.lang.String)
+[INFO ] 2017-08-11 19:04:00.103 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/allinfo],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.rele.Rele>> es.fdvcode.pipool.restsrv.v1.RelesRestController.getAllInfo()
+[INFO ] 2017-08-11 19:04:00.114 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/allstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.List<java.lang.String>> es.fdvcode.pipool.restsrv.v1.RelesRestController.getAllState()
+[INFO ] 2017-08-11 19:04:00.124 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/{id}],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.getRele(java.lang.String)
+[INFO ] 2017-08-11 19:04:00.134 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/off],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.off(java.lang.String)
+[INFO ] 2017-08-11 19:04:00.144 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/reload],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.rele.Rele>> es.fdvcode.pipool.restsrv.v1.RelesRestController.reload()
+[INFO ] 2017-08-11 19:04:00.173 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/rpistate/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.RpiStateRestController.info()
+[INFO ] 2017-08-11 19:04:00.183 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/rpistate/ping],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.RpiStateRestController.ping()
+[INFO ] 2017-08-11 19:04:00.192 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/rpistate/reboot],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.RpiStateRestController.reboot()
+[INFO ] 2017-08-11 19:04:00.323 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.info()
+[INFO ] 2017-08-11 19:04:00.333 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/start/rele],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.startRele(int)
+[INFO ] 2017-08-11 19:04:00.343 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/stop/rele],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.stopRele()
+[INFO ] 2017-08-11 19:04:00.353 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/start/sonda],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.startSonda(int)
+[INFO ] 2017-08-11 19:04:00.362 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/stop/sonda],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.stopSonda()
+[INFO ] 2017-08-11 19:04:00.372 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/start/persist],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.startPersist(int)
+[INFO ] 2017-08-11 19:04:00.382 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/stop/persist],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.stopPersist()
+[INFO ] 2017-08-11 19:04:00.506 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/setcalibration],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaORPRestController.calibration(java.lang.String)
+[INFO ] 2017-08-11 19:04:00.515 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceInfoResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.info()
+[INFO ] 2017-08-11 19:04:00.532 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/get],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.getSonda()
+[INFO ] 2017-08-11 19:04:00.545 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/getall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.getAllSondes()
+[INFO ] 2017-08-11 19:04:00.555 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/readall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.readAll()
+[INFO ] 2017-08-11 19:04:00.565 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledon],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOn()
+[INFO ] 2017-08-11 19:04:00.575 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledoff],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOff()
+[INFO ] 2017-08-11 19:04:00.584 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledState()
+[INFO ] 2017-08-11 19:04:00.594 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledonall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOnAll()
+[INFO ] 2017-08-11 19:04:00.604 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledoffall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOffAll()
+[INFO ] 2017-08-11 19:04:00.614 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/sleepall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleepAll()
+[INFO ] 2017-08-11 19:04:00.624 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/wakeup],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeup()
+[INFO ] 2017-08-11 19:04:00.633 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/wakeupall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeupAll()
+[INFO ] 2017-08-11 19:04:00.642 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/calibrationclear],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationClear()
+[INFO ] 2017-08-11 19:04:00.652 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/calibrationstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Integer> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationGetState()
+[INFO ] 2017-08-11 19:04:00.661 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/execmd],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.String> es.fdvcode.pipool.restsrv.v1.SondesRestController.execCommand(java.lang.String)
+[INFO ] 2017-08-11 19:04:00.671 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/read],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.read()
+[INFO ] 2017-08-11 19:04:00.683 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/sleep],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleep()
+[INFO ] 2017-08-11 19:04:00.693 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/status],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceStatusResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.status()
+[INFO ] 2017-08-11 19:04:00.702 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/reloadall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.reload()
+[INFO ] 2017-08-11 19:04:00.848 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/setcalibrationmid],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.calibrationMid(java.lang.String)
+[INFO ] 2017-08-11 19:04:00.857 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/setcalibrationlow],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.calibrationLow(java.lang.String)
+[INFO ] 2017-08-11 19:04:00.865 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/setcalibrationhigh],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.calibrationHigh(java.lang.String)
+[INFO ] 2017-08-11 19:04:00.874 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/slope],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasPH$SlopeResponse> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.slope()
+[INFO ] 2017-08-11 19:04:00.882 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/gettempcompensation],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.String> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.getTempCompensation()
+[INFO ] 2017-08-11 19:04:00.890 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/settempcompensation],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.setTempCompensation(java.lang.String)
+[INFO ] 2017-08-11 19:04:00.899 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceInfoResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.info()
+[INFO ] 2017-08-11 19:04:00.907 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/get],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.getSonda()
+[INFO ] 2017-08-11 19:04:00.915 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/getall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.getAllSondes()
+[INFO ] 2017-08-11 19:04:00.924 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/readall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.readAll()
+[INFO ] 2017-08-11 19:04:00.932 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledon],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOn()
+[INFO ] 2017-08-11 19:04:00.940 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledoff],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOff()
+[INFO ] 2017-08-11 19:04:00.948 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledState()
+[INFO ] 2017-08-11 19:04:00.957 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledonall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOnAll()
+[INFO ] 2017-08-11 19:04:00.965 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledoffall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOffAll()
+[INFO ] 2017-08-11 19:04:00.973 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/sleepall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleepAll()
+[INFO ] 2017-08-11 19:04:00.981 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/wakeup],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeup()
+[INFO ] 2017-08-11 19:04:00.989 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/wakeupall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeupAll()
+[INFO ] 2017-08-11 19:04:00.997 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/calibrationclear],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationClear()
+[INFO ] 2017-08-11 19:04:01.006 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/calibrationstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Integer> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationGetState()
+[INFO ] 2017-08-11 19:04:01.014 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/execmd],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.String> es.fdvcode.pipool.restsrv.v1.SondesRestController.execCommand(java.lang.String)
+[INFO ] 2017-08-11 19:04:01.022 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/read],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.read()
+[INFO ] 2017-08-11 19:04:01.030 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/sleep],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleep()
+[INFO ] 2017-08-11 19:04:01.039 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/status],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceStatusResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.status()
+[INFO ] 2017-08-11 19:04:01.047 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/reloadall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.reload()
+[INFO ] 2017-08-11 19:04:01.190 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/setcalibration],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaTempRestController.calibration(java.lang.String)
+[INFO ] 2017-08-11 19:04:01.199 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceInfoResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.info()
+[INFO ] 2017-08-11 19:04:01.207 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/get],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.getSonda()
+[INFO ] 2017-08-11 19:04:01.225 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/getall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.getAllSondes()
+[INFO ] 2017-08-11 19:04:01.233 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/readall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.readAll()
+[INFO ] 2017-08-11 19:04:01.247 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledon],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOn()
+[INFO ] 2017-08-11 19:04:01.257 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledoff],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOff()
+[INFO ] 2017-08-11 19:04:01.266 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledState()
+[INFO ] 2017-08-11 19:04:01.274 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledonall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOnAll()
+[INFO ] 2017-08-11 19:04:01.283 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledoffall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOffAll()
+[INFO ] 2017-08-11 19:04:01.290 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/sleepall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleepAll()
+[INFO ] 2017-08-11 19:04:01.299 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/wakeup],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeup()
+[INFO ] 2017-08-11 19:04:01.316 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/wakeupall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeupAll()
+[INFO ] 2017-08-11 19:04:01.324 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/calibrationclear],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationClear()
+[INFO ] 2017-08-11 19:04:01.332 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/calibrationstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Integer> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationGetState()
+[INFO ] 2017-08-11 19:04:01.341 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/execmd],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.String> es.fdvcode.pipool.restsrv.v1.SondesRestController.execCommand(java.lang.String)
+[INFO ] 2017-08-11 19:04:01.348 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/read],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.read()
+[INFO ] 2017-08-11 19:04:01.360 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/sleep],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleep()
+[INFO ] 2017-08-11 19:04:01.368 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/status],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceStatusResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.status()
+[INFO ] 2017-08-11 19:04:01.377 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/reloadall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.reload()
+[INFO ] 2017-08-11 19:04:01.432 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-08-11 19:04:01.441 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-08-11 19:04:02.783 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-08-11 19:04:02.789 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-08-11 19:04:03.980 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-08-11 19:04:12.793 [main] EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 19:04:12.831 [main] EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+[INFO ] 2017-08-11 19:04:12.838 [main] EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 19:04:12.867 [main] EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 19:04:12.888 [main] EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 19:04:12.909 [main] EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 19:04:12.930 [main] EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 19:04:12.951 [main] EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+[INFO ] 2017-08-11 19:04:12.972 [main] EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 19:04:13.036 [main] EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 19:04:13.052 [main] EndpointHandlerMapping - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+[INFO ] 2017-08-11 19:04:13.094 [main] EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+[INFO ] 2017-08-11 19:04:13.100 [main] EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 19:04:16.774 [main] AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+[INFO ] 2017-08-11 19:04:16.973 [main] EndpointMBeanExporter - Registering beans for JMX exposure on startup
+[INFO ] 2017-08-11 19:04:17.093 [main] DefaultLifecycleProcessor - Starting beans in phase 0
+[INFO ] 2017-08-11 19:04:17.152 [main] EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+[INFO ] 2017-08-11 19:04:17.741 [main] EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+[INFO ] 2017-08-11 19:04:17.856 [main] EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+[INFO ] 2017-08-11 19:04:17.936 [main] EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+[INFO ] 2017-08-11 19:04:18.032 [main] EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+[INFO ] 2017-08-11 19:04:18.105 [main] EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+[INFO ] 2017-08-11 19:04:18.183 [main] EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+[INFO ] 2017-08-11 19:04:18.267 [main] EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+[INFO ] 2017-08-11 19:04:18.455 [main] EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+[INFO ] 2017-08-11 19:04:18.577 [main] EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+[INFO ] 2017-08-11 19:04:19.108 [main] application - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 2017-08-11 19:04:19.114 [main] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-08-11 19:04:19.506 [main] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 385 ms
+[INFO ] 2017-08-11 19:04:19.882 [main] AbstractConnector - Started ServerConnector@1b607bf{HTTP/1.1,[http/1.1]}{0.0.0.0:8045}
+[INFO ] 2017-08-11 19:04:19.928 [main] JettyEmbeddedServletContainer - Jetty started on port(s) 8045 (http/1.1)
+[INFO ] 2017-08-11 19:04:20.010 [main] PiPoolInitializer - Inicialització de PiPool.
+[INFO ] 2017-08-11 19:04:20.015 [main] RelesSrv - Inicialitza GPios dels RELE's.
+[INFO ] 2017-08-11 19:04:20.131 [main] RelesSrv - RELESRV - Init GPIOs -> S'ha inicialitzat el Pin GPIO:25 amb Nom:Motor Bomba Filtre, isON:false i GpioPinHigh:true.
+[INFO ] 2017-08-11 19:04:20.138 [main] RelesSrv - RELESRV - Init GPIOs -> S'ha inicialitzat el Pin GPIO:23 amb Nom:Llums Piscina, isON:false i GpioPinHigh:true.
+[INFO ] 2017-08-11 19:04:20.144 [main] RelesSrv - RELESRV - Init GPIOs -> S'ha inicialitzat el Pin GPIO:24 amb Nom:Motor Bomba LFI, isON:false i GpioPinHigh:true.
+[INFO ] 2017-08-11 19:04:20.152 [main] SchedulerSrv - Start Scheduler RELES amb initialDelay=0 y periodSeconds=5.
+[INFO ] 2017-08-11 19:04:20.161 [main] SchedulerSrv - Start Scheduler SONDES amb initialDelay=1 y periodSeconds=600.
+[INFO ] 2017-08-11 19:04:20.173 [main] SchedulerSrv - Start Scheduler PERSIST amb initialDelay=2 y periodSeconds=3600.
+[INFO ] 2017-08-11 19:04:20.198 [main] MainPiPool - Started MainPiPool in 109.173 seconds (JVM running for 126.028)
+[INFO ] 2017-08-11 19:04:22.180 [pool-5-thread-1] PiPoolScheduledTaskPersist - PiPoolScheduledTaskPersist Initiated
+[INFO ] 2017-08-11 19:04:22.265 [pool-5-thread-1] SondesPersister - Persistencia de SONDES OK.
+[INFO ] 2017-08-11 19:04:22.295 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.329
+[INFO ] 2017-08-11 19:04:22.335 [pool-5-thread-1] RelesPersister - Persistencia de RELES OK.
+[INFO ] 2017-08-11 19:04:23.333 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.2
+[INFO ] 2017-08-11 19:04:24.354 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 19:04:37.100 [qtp26701660-16] SondaTempRestController - REST - LED ON All Sondes.
+[INFO ] 2017-08-11 19:04:37.616 [qtp26701660-16] SondaAtlasRTD - Resultat Exec Command [L,1] en Sonda [SondaTemp]: 
+[INFO ] 2017-08-11 19:04:38.131 [qtp26701660-16] SondaAtlasORP - Resultat Exec Command [L,1] en Sonda [SondaORP]: 
+[INFO ] 2017-08-11 19:04:38.652 [qtp26701660-16] SondaAtlasPH - Resultat Exec Command [L,1] en Sonda [SondaPH]: 
+[INFO ] 2017-08-11 19:05:14.344 [qtp26701660-14] SondaTempRestController - REST - Get All Sondes.
+[INFO ] 2017-08-11 19:05:14.356 [qtp26701660-14] SondaTempRestController - Sonda Id:SondaTemp, Valor:28.329, Unitats:ºC
+[INFO ] 2017-08-11 19:05:14.374 [qtp26701660-14] SondaTempRestController - Sonda Id:SondaORP, Valor:1018.2, Unitats:mV
+[INFO ] 2017-08-11 19:05:14.381 [qtp26701660-14] SondaTempRestController - Sonda Id:SondaPH, Valor:0.000, Unitats:ph
+[INFO ] 2017-08-11 19:06:34.941 [qtp26701660-10] RelesRestController - REST - Get State of All Reles.
+[INFO ] 2017-08-11 19:06:34.950 [qtp26701660-10] RelesRestController - Rele id:ReleBomba, releON:false, estatPin:true
+[INFO ] 2017-08-11 19:06:34.956 [qtp26701660-10] RelesRestController - Rele id:ReleLlums, releON:false, estatPin:true
+[INFO ] 2017-08-11 19:06:34.962 [qtp26701660-10] RelesRestController - Rele id:ReleLfi, releON:false, estatPin:true
+[INFO ] 2017-08-11 19:07:35.931 [qtp26701660-15] RelesRestController - REST - Get State of All Reles.
+[INFO ] 2017-08-11 19:07:35.950 [qtp26701660-15] RelesRestController - Rele id:ReleBomba, releON:false, estatPin:true
+[INFO ] 2017-08-11 19:07:35.956 [qtp26701660-15] RelesRestController - Rele id:ReleLlums, releON:false, estatPin:true
+[INFO ] 2017-08-11 19:07:35.962 [qtp26701660-15] RelesRestController - Rele id:ReleLfi, releON:false, estatPin:true
+[INFO ] 2017-08-11 19:08:12.231 [qtp26701660-17] RelesRestController - REST - Set Rele [ON TEMPORAL] with id=ReleBomba, minuts=10.
+[INFO ] 2017-08-11 19:08:12.242 [qtp26701660-17] RelesSrv - RELESRV - UPDATESTATE -> S'ha establert l'estat del Rele=ReleBomba amb Mode=AUTO, EstatRele=true i EstatPin=false.
+[INFO ] 2017-08-11 19:08:12.250 [qtp26701660-17] RelesSrv - RELESRV - SET ON TEMPORAL -> Rele=ReleBomba: S'ha establert la franjaTemporal=1981918 i s'ha ACTIVAT RELE [ON].
+[INFO ] 2017-08-11 19:08:12.261 [qtp26701660-17] RelesRestController - Rele INFO: -->(es.fdvcode.pipool.model.rele.Rele): [id=ReleBomba, nom=Motor Bomba Filtre, gpioPin=25, gpioStateWhenReleOn=false, idReleMaster=<null>, calendars={2:-->(es.fdvcode.pipool.model.rele.CalendarRele): [id=ProgBombaEstiu, nom=Programació Bomba Estiu, rele=es.fdvcode.pipool.model.rele.Rele@cade70, diaIni=1, mesIni=6, diaFin=30, mesFin=9, listFrangesHoraries={2:-->(es.fdvcode.pipool.model.rele.FranjaHoraria): [horaIni=8, minutIni=0, horaFin=9, minutFin=0], 3:-->(es.fdvcode.pipool.model.rele.FranjaHoraria): [horaIni=11, minutIni=0, horaFin=14, minutFin=0], 4:-->(es.fdvcode.pipool.model.rele.FranjaHoraria): [horaIni=16, minutIni=0, horaFin=19, minutFin=0], 5:-->(es.fdvcode.pipool.model.rele.FranjaHoraria): [horaIni=22, minutIni=0, horaFin=23, minutFin=30]}], 3:-->(es.fdvcode.pipool.model.rele.CalendarRele): [id=ProgBombaHivern, nom=Programació Bomba Hivern, rele=es.fdvcode.pipool.model.rele.Rele@cade70, diaIni=1, mesIni=10, diaFin=30, mesFin=5, listFrangesHoraries={2:-->(es.fdvcode.pipool.model.rele.FranjaHoraria): [horaIni=6, minutIni=0, horaFin=9, minutFin=0], 3:-->(es.fdvcode.pipool.model.rele.FranjaHoraria): [horaIni=21, minutIni=0, horaFin=23, minutFin=30]}]}, stateRele=-->(es.fdvcode.pipool.model.rele.StateRele): [rele=es.fdvcode.pipool.model.rele.Rele@cade70, isOn=true, gpioPinHigh=false, mode=AUTO, timestamp=Fri Aug 11 19:08:12 CEST 2017, descripcio=RELESRV - SET ON TEMPORAL -> Rele=ReleBomba: S'ha establert la franjaTemporal=1981918 i s'ha ACTIVAT RELE [ON]., desactivacioReleMaster=false, activacioTemporal=-->(es.fdvcode.pipool.model.rele.FranjaHoraria): [horaIni=19, minutIni=8, horaFin=19, minutFin=18], activacioProgramada=<null>], historic={2:-->(es.fdvcode.pipool.model.rele.StateRele): [rele=es.fdvcode.pipool.model.rele.Rele@cade70, isOn=true, gpioPinHigh=false, mode=AUTO, timestamp=Fri Aug 11 19:08:12 CEST 2017, descripcio=RELESRV - SET ON TEMPORAL -> Rele=ReleBomba: S'ha establert la franjaTemporal=1981918 i s'ha ACTIVAT RELE [ON]., desactivacioReleMaster=false, activacioTemporal=-->(es.fdvcode.pipool.model.rele.FranjaHoraria): [horaIni=19, minutIni=8, horaFin=19, minutFin=18], activacioProgramada=<null>]}]
+[INFO ] 2017-08-11 19:08:23.018 [qtp26701660-10] RelesRestController - REST - Get State of All Reles.
+[INFO ] 2017-08-11 19:08:23.027 [qtp26701660-10] RelesRestController - Rele id:ReleBomba, releON:true, estatPin:false
+[INFO ] 2017-08-11 19:08:23.035 [qtp26701660-10] RelesRestController - Rele id:ReleLlums, releON:false, estatPin:true
+[INFO ] 2017-08-11 19:08:23.043 [qtp26701660-10] RelesRestController - Rele id:ReleLfi, releON:false, estatPin:true
+[INFO ] 2017-08-11 19:14:22.174 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.147
+[INFO ] 2017-08-11 19:14:23.190 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.7
+[INFO ] 2017-08-11 19:14:24.220 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 19:19:00.166 [pool-3-thread-1] PiPoolScheduledTaskRele - SCHEDULER RELES - DESACTIVANT [OFF] el RELE: ReleBomba
+[INFO ] 2017-08-11 19:19:00.176 [pool-3-thread-1] RelesSrv - RELESRV - UPDATESTATE -> S'ha establert l'estat del Rele=ReleBomba amb Mode=AUTO, EstatRele=false i EstatPin=true.
+[INFO ] 2017-08-11 19:24:22.174 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.132
+[INFO ] 2017-08-11 19:24:23.188 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.3
+[INFO ] 2017-08-11 19:24:24.205 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 19:34:22.174 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.120
+[INFO ] 2017-08-11 19:34:23.198 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.2
+[INFO ] 2017-08-11 19:34:24.216 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 19:44:22.175 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.100
+[INFO ] 2017-08-11 19:44:23.201 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.7
+[INFO ] 2017-08-11 19:44:24.219 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 19:54:22.174 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.073
+[INFO ] 2017-08-11 19:54:23.190 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.0
+[INFO ] 2017-08-11 19:54:24.205 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 20:04:22.174 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 27.876
+[INFO ] 2017-08-11 20:04:22.187 [pool-5-thread-1] PiPoolScheduledTaskPersist - PiPoolScheduledTaskPersist Initiated
+[INFO ] 2017-08-11 20:04:22.247 [pool-5-thread-1] SondesPersister - Persistencia de SONDES OK.
+[INFO ] 2017-08-11 20:04:22.274 [pool-5-thread-1] RelesPersister - Persistencia de RELES OK.
+[INFO ] 2017-08-11 20:04:23.208 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.5
+[INFO ] 2017-08-11 20:04:24.224 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 20:14:22.173 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 27.869
+[INFO ] 2017-08-11 20:14:23.189 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.0
+[INFO ] 2017-08-11 20:14:24.205 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 20:24:22.174 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 27.861
+[INFO ] 2017-08-11 20:24:23.188 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.3
+[INFO ] 2017-08-11 20:24:24.205 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 20:34:22.174 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 27.847
+[INFO ] 2017-08-11 20:34:23.189 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.9
+[INFO ] 2017-08-11 20:34:24.209 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 20:44:22.174 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 27.710
+[INFO ] 2017-08-11 20:44:23.188 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.0
+[INFO ] 2017-08-11 20:44:24.205 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 20:54:22.174 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 27.702
+[INFO ] 2017-08-11 20:54:23.188 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.7
+[INFO ] 2017-08-11 20:54:24.205 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 21:04:22.174 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 27.711
+[INFO ] 2017-08-11 21:04:22.181 [pool-5-thread-1] PiPoolScheduledTaskPersist - PiPoolScheduledTaskPersist Initiated
+[INFO ] 2017-08-11 21:04:22.226 [pool-5-thread-1] SondesPersister - Persistencia de SONDES OK.
+[INFO ] 2017-08-11 21:04:22.247 [pool-5-thread-1] RelesPersister - Persistencia de RELES OK.
+[INFO ] 2017-08-11 21:04:23.191 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.4
+[INFO ] 2017-08-11 21:04:24.206 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 21:14:22.174 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 27.692
+[INFO ] 2017-08-11 21:14:23.188 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.7
+[INFO ] 2017-08-11 21:14:24.205 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 21:24:22.173 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 27.352
+[INFO ] 2017-08-11 21:24:23.187 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.2
+[INFO ] 2017-08-11 21:24:24.204 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 21:28:41.866 [Thread-11] AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69b199: startup date [Fri Aug 11 19:02:47 CEST 2017]; root of context hierarchy
+[INFO ] 2017-08-11 21:28:42.002 [Thread-11] DefaultLifecycleProcessor - Stopping beans in phase 0
+[INFO ] 2017-08-11 21:29:13.608 [main] MainPiPool - Starting MainPiPool v0.0.2-SNAPSHOT on rPIZeroPiscinav2 with PID 1213 (/home/pi/pipool/pipool.jar started by pi in /home/pi/pipool)
+[INFO ] 2017-08-11 21:29:13.638 [background-preinit] Version - HV000001: Hibernate Validator 5.2.4.Final
+[INFO ] 2017-08-11 21:29:13.661 [main] MainPiPool - The following profiles are active: Prod
+[INFO ] 2017-08-11 21:29:15.810 [main] AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69b199: startup date [Fri Aug 11 21:29:15 CEST 2017]; root of context hierarchy
+[INFO ] 2017-08-11 21:29:37.826 [main] DefaultListableBeanFactory - Overriding bean definition for bean 'sondaAtlasORP' with a different definition: replacing [Generic bean: class [es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasORP]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/home/pi/pipool/pipool.jar!/BOOT-INF/classes!/es/fdvcode/pipool/srv/sonda/atlasi2c/impl/SondaAtlasORP.class]] with [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=true; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DIConfig; factoryMethodName=sondaAtlasORP; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [es/fdvcode/pipool/DIConfig.class]]
+[INFO ] 2017-08-11 21:29:37.848 [main] DefaultListableBeanFactory - Overriding bean definition for bean 'sondaAtlasPH' with a different definition: replacing [Generic bean: class [es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasPH]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/home/pi/pipool/pipool.jar!/BOOT-INF/classes!/es/fdvcode/pipool/srv/sonda/atlasi2c/impl/SondaAtlasPH.class]] with [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=true; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DIConfig; factoryMethodName=sondaAtlasPH; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [es/fdvcode/pipool/DIConfig.class]]
+[INFO ] 2017-08-11 21:29:37.874 [main] DefaultListableBeanFactory - Overriding bean definition for bean 'sondaAtlasRTD' with a different definition: replacing [Generic bean: class [es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasRTD]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/home/pi/pipool/pipool.jar!/BOOT-INF/classes!/es/fdvcode/pipool/srv/sonda/atlasi2c/impl/SondaAtlasRTD.class]] with [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=true; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DIConfig; factoryMethodName=sondaAtlasRTD; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [es/fdvcode/pipool/DIConfig.class]]
+[INFO ] 2017-08-11 21:29:37.898 [main] DefaultListableBeanFactory - Overriding bean definition for bean 'deviceAtlasI2CImpl' with a different definition: replacing [Generic bean: class [es.fdvcode.pipool.srv.sonda.atlasi2c.impl.DeviceAtlasI2CImpl]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/home/pi/pipool/pipool.jar!/BOOT-INF/classes!/es/fdvcode/pipool/srv/sonda/atlasi2c/impl/DeviceAtlasI2CImpl.class]] with [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=true; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=DIConfig; factoryMethodName=deviceAtlasI2CImpl; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [es/fdvcode/pipool/DIConfig.class]]
+[INFO ] 2017-08-11 21:29:56.447 [main] log - Logging initialized @73701ms
+[INFO ] 2017-08-11 21:29:59.275 [main] JettyEmbeddedServletContainerFactory - Server initialized with port: 8045
+[INFO ] 2017-08-11 21:29:59.323 [main] Server - jetty-9.3.14.v20161028
+[INFO ] 2017-08-11 21:30:01.645 [main] application - Initializing Spring embedded WebApplicationContext
+[INFO ] 2017-08-11 21:30:01.660 [main] ContextLoader - Root WebApplicationContext: initialization completed in 45965 ms
+[INFO ] 2017-08-11 21:30:08.112 [main] ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+[INFO ] 2017-08-11 21:30:08.166 [main] FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+[INFO ] 2017-08-11 21:30:08.173 [main] FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2017-08-11 21:30:08.179 [main] FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2017-08-11 21:30:08.185 [main] FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2017-08-11 21:30:08.191 [main] FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2017-08-11 21:30:08.198 [main] FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[INFO ] 2017-08-11 21:30:08.204 [main] FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+[INFO ] 2017-08-11 21:30:11.360 [main] ContextHandler - Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@f842ca{/,file:///tmp/jetty-docbase.6623595187285261394.8045/,AVAILABLE}
+[INFO ] 2017-08-11 21:30:11.380 [main] Server - Started @88640ms
+[INFO ] 2017-08-11 21:30:13.394 [main] RelesLoader - Inicialitza RELE's.
+[INFO ] 2017-08-11 21:30:15.046 [main] RelesLoader - JSON de Rele llegit i carregat OK.
+[INFO ] 2017-08-11 21:30:15.079 [main] RelesLoader - S'han trobat 3 reles definits.
+[INFO ] 2017-08-11 21:30:15.563 [main] SondesLoader - Inicialitza SONDES's.
+[INFO ] 2017-08-11 21:30:15.604 [main] SondesLoader - JSON de Sonda llegida i carregada OK.
+[INFO ] 2017-08-11 21:30:15.609 [main] SondesLoader - S'han trobat 3 sondes definides.
+[INFO ] 2017-08-11 21:30:16.163 [main] DeviceAtlasI2C - Connectat al bus i2C. OK.
+[INFO ] 2017-08-11 21:30:16.252 [main] SondesSrv - Sonda Atlas SondaTemp iniciada OK.
+[INFO ] 2017-08-11 21:30:16.371 [main] DeviceAtlasI2C - Connectat al bus i2C. OK.
+[INFO ] 2017-08-11 21:30:16.395 [main] SondesSrv - Sonda Atlas SondaORP iniciada OK.
+[INFO ] 2017-08-11 21:30:16.524 [main] DeviceAtlasI2C - Connectat al bus i2C. OK.
+[INFO ] 2017-08-11 21:30:16.542 [main] SondesSrv - Sonda Atlas SondaPH iniciada OK.
+[INFO ] 2017-08-11 21:30:26.251 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69b199: startup date [Fri Aug 11 21:29:15 CEST 2017]; root of context hierarchy
+[INFO ] 2017-08-11 21:30:28.087 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/gpio/toggle],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.GpioRestController.toggle(int)
+[INFO ] 2017-08-11 21:30:28.107 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/gpio/state],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.GpioRestController.getState(int)
+[INFO ] 2017-08-11 21:30:28.187 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/off],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.off(java.lang.String)
+[INFO ] 2017-08-11 21:30:28.196 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/on],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.on(java.lang.String)
+[INFO ] 2017-08-11 21:30:28.204 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/{id}],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.getRele(java.lang.String)
+[INFO ] 2017-08-11 21:30:28.213 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/ontemporal],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.onTemporal(java.lang.String,int)
+[INFO ] 2017-08-11 21:30:28.221 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/canceltemporal],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.cancelTemporal(java.lang.String)
+[INFO ] 2017-08-11 21:30:28.230 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/auto],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.rele.Rele> es.fdvcode.pipool.restsrv.v1.RelesRestController.auto(java.lang.String)
+[INFO ] 2017-08-11 21:30:28.239 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/allinfo],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.rele.Rele>> es.fdvcode.pipool.restsrv.v1.RelesRestController.getAllInfo()
+[INFO ] 2017-08-11 21:30:28.247 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/allstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.List<java.lang.String>> es.fdvcode.pipool.restsrv.v1.RelesRestController.getAllState()
+[INFO ] 2017-08-11 21:30:28.256 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/reles/reload],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.rele.Rele>> es.fdvcode.pipool.restsrv.v1.RelesRestController.reload()
+[INFO ] 2017-08-11 21:30:28.284 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/rpistate/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.RpiStateRestController.info()
+[INFO ] 2017-08-11 21:30:28.293 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/rpistate/ping],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.RpiStateRestController.ping()
+[INFO ] 2017-08-11 21:30:28.301 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/rpistate/reboot],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.RpiStateRestController.reboot()
+[INFO ] 2017-08-11 21:30:28.422 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.info()
+[INFO ] 2017-08-11 21:30:28.441 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/start/rele],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.startRele(int)
+[INFO ] 2017-08-11 21:30:28.450 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/stop/rele],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.stopRele()
+[INFO ] 2017-08-11 21:30:28.459 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/start/sonda],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.startSonda(int)
+[INFO ] 2017-08-11 21:30:28.468 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/stop/sonda],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.stopSonda()
+[INFO ] 2017-08-11 21:30:28.476 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/start/persist],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.startPersist(int)
+[INFO ] 2017-08-11 21:30:28.485 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/scheduler/stop/persist],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Map<java.lang.String, java.lang.String>> es.fdvcode.pipool.restsrv.v1.SchedulerRestController.stopPersist()
+[INFO ] 2017-08-11 21:30:28.601 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/setcalibration],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaORPRestController.calibration(java.lang.String)
+[INFO ] 2017-08-11 21:30:28.610 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceInfoResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.info()
+[INFO ] 2017-08-11 21:30:28.628 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/get],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.getSonda()
+[INFO ] 2017-08-11 21:30:28.636 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/getall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.getAllSondes()
+[INFO ] 2017-08-11 21:30:28.645 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/readall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.readAll()
+[INFO ] 2017-08-11 21:30:28.657 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledon],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOn()
+[INFO ] 2017-08-11 21:30:28.666 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledoff],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOff()
+[INFO ] 2017-08-11 21:30:28.674 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledState()
+[INFO ] 2017-08-11 21:30:28.682 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledonall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOnAll()
+[INFO ] 2017-08-11 21:30:28.691 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/ledoffall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOffAll()
+[INFO ] 2017-08-11 21:30:28.699 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/sleepall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleepAll()
+[INFO ] 2017-08-11 21:30:28.708 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/wakeup],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeup()
+[INFO ] 2017-08-11 21:30:28.717 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/wakeupall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeupAll()
+[INFO ] 2017-08-11 21:30:28.725 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/calibrationclear],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationClear()
+[INFO ] 2017-08-11 21:30:28.737 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/calibrationstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Integer> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationGetState()
+[INFO ] 2017-08-11 21:30:28.745 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/execmd],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.String> es.fdvcode.pipool.restsrv.v1.SondesRestController.execCommand(java.lang.String)
+[INFO ] 2017-08-11 21:30:28.752 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/read],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.read()
+[INFO ] 2017-08-11 21:30:28.759 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/sleep],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleep()
+[INFO ] 2017-08-11 21:30:28.766 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/status],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceStatusResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.status()
+[INFO ] 2017-08-11 21:30:28.775 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/orp/reloadall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.reload()
+[INFO ] 2017-08-11 21:30:28.892 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/setcalibrationmid],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.calibrationMid(java.lang.String)
+[INFO ] 2017-08-11 21:30:28.899 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/setcalibrationlow],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.calibrationLow(java.lang.String)
+[INFO ] 2017-08-11 21:30:28.907 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/setcalibrationhigh],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.calibrationHigh(java.lang.String)
+[INFO ] 2017-08-11 21:30:28.914 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/slope],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasPH$SlopeResponse> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.slope()
+[INFO ] 2017-08-11 21:30:28.922 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/gettempcompensation],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.String> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.getTempCompensation()
+[INFO ] 2017-08-11 21:30:28.929 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/settempcompensation],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaPHRestController.setTempCompensation(java.lang.String)
+[INFO ] 2017-08-11 21:30:28.937 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceInfoResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.info()
+[INFO ] 2017-08-11 21:30:28.944 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/get],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.getSonda()
+[INFO ] 2017-08-11 21:30:28.952 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/getall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.getAllSondes()
+[INFO ] 2017-08-11 21:30:28.959 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/readall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.readAll()
+[INFO ] 2017-08-11 21:30:28.966 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledon],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOn()
+[INFO ] 2017-08-11 21:30:28.973 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledoff],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOff()
+[INFO ] 2017-08-11 21:30:28.980 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledState()
+[INFO ] 2017-08-11 21:30:28.987 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledonall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOnAll()
+[INFO ] 2017-08-11 21:30:28.994 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/ledoffall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOffAll()
+[INFO ] 2017-08-11 21:30:29.002 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/sleepall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleepAll()
+[INFO ] 2017-08-11 21:30:29.009 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/wakeup],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeup()
+[INFO ] 2017-08-11 21:30:29.016 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/wakeupall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeupAll()
+[INFO ] 2017-08-11 21:30:29.023 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/calibrationclear],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationClear()
+[INFO ] 2017-08-11 21:30:29.030 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/calibrationstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Integer> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationGetState()
+[INFO ] 2017-08-11 21:30:29.037 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/execmd],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.String> es.fdvcode.pipool.restsrv.v1.SondesRestController.execCommand(java.lang.String)
+[INFO ] 2017-08-11 21:30:29.045 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/read],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.read()
+[INFO ] 2017-08-11 21:30:29.052 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/sleep],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleep()
+[INFO ] 2017-08-11 21:30:29.059 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/status],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceStatusResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.status()
+[INFO ] 2017-08-11 21:30:29.066 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/ph/reloadall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.reload()
+[INFO ] 2017-08-11 21:30:29.214 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/setcalibration],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondaTempRestController.calibration(java.lang.String)
+[INFO ] 2017-08-11 21:30:29.222 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/info],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceInfoResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.info()
+[INFO ] 2017-08-11 21:30:29.229 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/get],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.getSonda()
+[INFO ] 2017-08-11 21:30:29.245 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/getall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.getAllSondes()
+[INFO ] 2017-08-11 21:30:29.258 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/readall],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.readAll()
+[INFO ] 2017-08-11 21:30:29.266 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledon],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOn()
+[INFO ] 2017-08-11 21:30:29.276 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledoff],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOff()
+[INFO ] 2017-08-11 21:30:29.284 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledState()
+[INFO ] 2017-08-11 21:30:29.291 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledonall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOnAll()
+[INFO ] 2017-08-11 21:30:29.298 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/ledoffall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.ledOffAll()
+[INFO ] 2017-08-11 21:30:29.305 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/sleepall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleepAll()
+[INFO ] 2017-08-11 21:30:29.312 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/wakeup],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeup()
+[INFO ] 2017-08-11 21:30:29.319 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/wakeupall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Boolean> es.fdvcode.pipool.restsrv.v1.SondesRestController.wakeupAll()
+[INFO ] 2017-08-11 21:30:29.326 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/calibrationclear],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationClear()
+[INFO ] 2017-08-11 21:30:29.333 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/calibrationstate],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Integer> es.fdvcode.pipool.restsrv.v1.SondesRestController.calibrationGetState()
+[INFO ] 2017-08-11 21:30:29.340 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/execmd],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.String> es.fdvcode.pipool.restsrv.v1.SondesRestController.execCommand(java.lang.String)
+[INFO ] 2017-08-11 21:30:29.348 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/read],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.model.sonda.Sonda> es.fdvcode.pipool.restsrv.v1.SondesRestController.read()
+[INFO ] 2017-08-11 21:30:29.359 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/sleep],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.lang.Void> es.fdvcode.pipool.restsrv.v1.SondesRestController.sleep()
+[INFO ] 2017-08-11 21:30:29.366 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/status],methods=[GET]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$DeviceStatusResponse> es.fdvcode.pipool.restsrv.v1.SondesRestController.status()
+[INFO ] 2017-08-11 21:30:29.374 [main] RequestMappingHandlerMapping - Mapped "{[/api/v1/sonda/temp/reloadall],methods=[PUT]}" onto public es.fdvcode.pipool.restsrv.v1.response.RestResponse<java.util.Collection<es.fdvcode.pipool.model.sonda.Sonda>> es.fdvcode.pipool.restsrv.v1.SondesRestController.reload()
+[INFO ] 2017-08-11 21:30:29.428 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-08-11 21:30:29.436 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-08-11 21:30:30.795 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-08-11 21:30:30.800 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-08-11 21:30:31.970 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-08-11 21:30:41.712 [main] EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+[INFO ] 2017-08-11 21:30:41.760 [main] EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 21:30:41.777 [main] EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 21:30:41.795 [main] EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 21:30:41.812 [main] EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 21:30:41.829 [main] EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 21:30:41.846 [main] EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 21:30:41.863 [main] EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 21:30:41.984 [main] EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+[INFO ] 2017-08-11 21:30:41.989 [main] EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 21:30:42.009 [main] EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+[INFO ] 2017-08-11 21:30:42.015 [main] EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO ] 2017-08-11 21:30:42.027 [main] EndpointHandlerMapping - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+[INFO ] 2017-08-11 21:30:45.879 [main] AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+[INFO ] 2017-08-11 21:30:46.032 [main] EndpointMBeanExporter - Registering beans for JMX exposure on startup
+[INFO ] 2017-08-11 21:30:46.131 [main] DefaultLifecycleProcessor - Starting beans in phase 0
+[INFO ] 2017-08-11 21:30:46.189 [main] EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+[INFO ] 2017-08-11 21:30:46.915 [main] EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+[INFO ] 2017-08-11 21:30:47.043 [main] EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+[INFO ] 2017-08-11 21:30:47.129 [main] EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+[INFO ] 2017-08-11 21:30:47.218 [main] EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+[INFO ] 2017-08-11 21:30:47.287 [main] EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+[INFO ] 2017-08-11 21:30:47.367 [main] EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+[INFO ] 2017-08-11 21:30:47.438 [main] EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+[INFO ] 2017-08-11 21:30:47.570 [main] EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+[INFO ] 2017-08-11 21:30:47.669 [main] EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+[INFO ] 2017-08-11 21:30:48.152 [main] application - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 2017-08-11 21:30:48.156 [main] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-08-11 21:30:48.474 [main] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 313 ms
+[INFO ] 2017-08-11 21:30:48.984 [main] AbstractConnector - Started ServerConnector@18a6113{HTTP/1.1,[http/1.1]}{0.0.0.0:8045}
+[INFO ] 2017-08-11 21:30:49.039 [main] JettyEmbeddedServletContainer - Jetty started on port(s) 8045 (http/1.1)
+[INFO ] 2017-08-11 21:30:49.146 [main] PiPoolInitializer - Inicialització de PiPool.
+[INFO ] 2017-08-11 21:30:49.152 [main] RelesSrv - Inicialitza GPios dels RELE's.
+[INFO ] 2017-08-11 21:30:49.269 [main] RelesSrv - RELESRV - Init GPIOs -> S'ha inicialitzat el Pin GPIO:25 amb Nom:Motor Bomba Filtre, isON:false i GpioPinHigh:true.
+[INFO ] 2017-08-11 21:30:49.276 [main] RelesSrv - RELESRV - Init GPIOs -> S'ha inicialitzat el Pin GPIO:23 amb Nom:Llums Piscina, isON:false i GpioPinHigh:true.
+[INFO ] 2017-08-11 21:30:49.281 [main] RelesSrv - RELESRV - Init GPIOs -> S'ha inicialitzat el Pin GPIO:24 amb Nom:Motor Bomba LFI, isON:false i GpioPinHigh:true.
+[INFO ] 2017-08-11 21:30:49.288 [main] SchedulerSrv - Start Scheduler RELES amb initialDelay=0 y periodSeconds=5.
+[INFO ] 2017-08-11 21:30:49.296 [main] SchedulerSrv - Start Scheduler SONDES amb initialDelay=1 y periodSeconds=600.
+[INFO ] 2017-08-11 21:30:49.313 [main] SchedulerSrv - Start Scheduler PERSIST amb initialDelay=2 y periodSeconds=3600.
+[INFO ] 2017-08-11 21:30:49.327 [main] MainPiPool - Started MainPiPool in 109.841 seconds (JVM running for 126.601)
+[INFO ] 2017-08-11 21:30:51.319 [pool-5-thread-1] PiPoolScheduledTaskPersist - PiPoolScheduledTaskPersist Initiated
+[INFO ] 2017-08-11 21:30:51.378 [pool-5-thread-1] SondesPersister - Persistencia de SONDES OK.
+[INFO ] 2017-08-11 21:30:51.404 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 27.184
+[INFO ] 2017-08-11 21:30:51.399 [pool-5-thread-1] RelesPersister - Persistencia de RELES OK.
+[INFO ] 2017-08-11 21:30:52.417 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.3
+[INFO ] 2017-08-11 21:30:53.436 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 21:40:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 26.890
+[INFO ] 2017-08-11 21:40:52.322 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.7
+[INFO ] 2017-08-11 21:40:53.335 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 21:50:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 26.736
+[INFO ] 2017-08-11 21:50:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.2
+[INFO ] 2017-08-11 21:50:53.336 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 22:00:04.303 [pool-3-thread-1] PiPoolScheduledTaskRele - SCHEDULER RELES - ACTIVANT [ON] el RELE: ReleBomba
+[INFO ] 2017-08-11 22:00:04.311 [pool-3-thread-1] RelesSrv - RELESRV - UPDATESTATE -> S'ha establert l'estat del Rele=ReleBomba amb Mode=AUTO, EstatRele=true i EstatPin=false.
+[INFO ] 2017-08-11 22:00:04.324 [pool-3-thread-1] PiPoolScheduledTaskRele - SCHEDULER RELES - ACTIVANT [ON] el RELE: ReleLfi
+[INFO ] 2017-08-11 22:00:04.329 [pool-3-thread-1] RelesSrv - RELESRV - UPDATESTATE -> S'ha establert l'estat del Rele=ReleLfi amb Mode=AUTO, EstatRele=true i EstatPin=false.
+[INFO ] 2017-08-11 22:00:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 26.910
+[INFO ] 2017-08-11 22:00:52.321 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.6
+[INFO ] 2017-08-11 22:00:53.334 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 22:10:51.308 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 26.907
+[INFO ] 2017-08-11 22:10:52.331 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.4
+[INFO ] 2017-08-11 22:10:53.341 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 22:20:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 26.638
+[INFO ] 2017-08-11 22:20:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.9
+[INFO ] 2017-08-11 22:20:53.337 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 22:30:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 26.618
+[INFO ] 2017-08-11 22:30:51.319 [pool-5-thread-1] PiPoolScheduledTaskPersist - PiPoolScheduledTaskPersist Initiated
+[INFO ] 2017-08-11 22:30:51.404 [pool-5-thread-1] SondesPersister - Persistencia de SONDES OK.
+[INFO ] 2017-08-11 22:30:51.462 [pool-5-thread-1] RelesPersister - Persistencia de RELES OK.
+[INFO ] 2017-08-11 22:30:52.348 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.2
+[INFO ] 2017-08-11 22:30:53.363 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 22:40:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 26.315
+[INFO ] 2017-08-11 22:40:52.325 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.2
+[INFO ] 2017-08-11 22:40:53.338 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 22:50:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 26.122
+[INFO ] 2017-08-11 22:50:52.324 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.9
+[INFO ] 2017-08-11 22:50:53.338 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 23:00:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 26.257
+[INFO ] 2017-08-11 23:00:52.325 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.0
+[INFO ] 2017-08-11 23:00:53.339 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 23:10:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 26.236
+[INFO ] 2017-08-11 23:10:52.325 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.4
+[INFO ] 2017-08-11 23:10:53.338 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 23:20:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 26.041
+[INFO ] 2017-08-11 23:20:52.324 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.4
+[INFO ] 2017-08-11 23:20:53.338 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 23:30:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 26.043
+[INFO ] 2017-08-11 23:30:51.318 [pool-5-thread-1] PiPoolScheduledTaskPersist - PiPoolScheduledTaskPersist Initiated
+[INFO ] 2017-08-11 23:30:51.352 [pool-5-thread-1] SondesPersister - Persistencia de SONDES OK.
+[INFO ] 2017-08-11 23:30:51.364 [pool-5-thread-1] RelesPersister - Persistencia de RELES OK.
+[INFO ] 2017-08-11 23:30:52.323 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1019.7
+[INFO ] 2017-08-11 23:30:53.338 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 23:31:04.299 [pool-3-thread-1] PiPoolScheduledTaskRele - SCHEDULER RELES - DESACTIVANT [OFF] el RELE: ReleBomba
+[INFO ] 2017-08-11 23:31:04.307 [pool-3-thread-1] RelesSrv - RELESRV - UPDATESTATE -> S'ha establert l'estat del Rele=ReleBomba amb Mode=AUTO, EstatRele=false i EstatPin=true.
+[INFO ] 2017-08-11 23:31:04.319 [pool-3-thread-1] PiPoolScheduledTaskRele - SCHEDULER RELES - DESACTIVANT [OFF] el RELE: ReleLfi
+[INFO ] 2017-08-11 23:31:04.327 [pool-3-thread-1] RelesSrv - RELESRV - UPDATESTATE -> S'ha establert l'estat del Rele=ReleLfi amb Mode=AUTO, EstatRele=false i EstatPin=true.
+[INFO ] 2017-08-11 23:40:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 26.320
+[INFO ] 2017-08-11 23:40:52.325 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1020.0
+[INFO ] 2017-08-11 23:40:53.339 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 23:50:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 26.335
+[INFO ] 2017-08-11 23:50:52.326 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.6
+[INFO ] 2017-08-11 23:50:53.340 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-11 23:56:12.010 [qtp8641687-13] SondaTempRestController - REST - LED OFF All Sondes.
+[INFO ] 2017-08-11 23:56:12.525 [qtp8641687-13] SondaAtlasRTD - Resultat Exec Command [L,0] en Sonda [SondaTemp]: 
+[INFO ] 2017-08-11 23:56:13.039 [qtp8641687-13] SondaAtlasORP - Resultat Exec Command [L,0] en Sonda [SondaORP]: 
+[INFO ] 2017-08-11 23:56:13.555 [qtp8641687-13] SondaAtlasPH - Resultat Exec Command [L,0] en Sonda [SondaPH]: 

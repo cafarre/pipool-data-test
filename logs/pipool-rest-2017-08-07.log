@@ -1,0 +1,903 @@
+[INFO ] 2017-08-07 09:48:23.206 [qtp15414758-12] SondaTempRestController - REST - GET INFO Sonda RTD with address=102.
+[INFO ] 2017-08-07 09:48:23.239 [qtp15414758-12] SondaTempRestController - Debug - abans call sondaAtlas.cmdGetDeviceInfo
+[INFO ] 2017-08-07 09:48:24.430 [qtp15414758-12] SondaTempRestController - Sonda RTD DeviceInfoResponse: [
+device=RTD
+firmware=2.10
+this$0=-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasRTD):
+[
+]
+]
+
+[INFO ] 2017-08-07 10:09:15.700 [qtp15414758-10] SondaTempRestController - REST - Read State of All Sondes.
+[INFO ] 2017-08-07 10:09:17.782 [qtp15414758-10] SondaTempRestController - Sonda Id:SondaTemp, Valor:29.553, Unitats:ºC
+[INFO ] 2017-08-07 10:09:19.839 [qtp15414758-10] SondaTempRestController - Sonda Id:SondaORP, Valor:1018.4, Unitats:mV
+[INFO ] 2017-08-07 10:09:21.893 [qtp15414758-10] SondaTempRestController - Sonda Id:SondaPH, Valor:0.000, Unitats:ph
+[INFO ] 2017-08-07 13:37:19.662 [qtp20629897-12] SondaTempRestController - REST - [GET INFO, RTD, 102] en Sonda {} with address={}.
+[INFO ] 2017-08-07 13:37:20.281 [qtp20629897-12] SondaTempRestController - Sonda RTD DeviceInfoResponse: [
+device=RTD
+firmware=2.10
+this$0=-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasRTD):
+[
+]
+]
+
+[INFO ] 2017-08-07 13:37:50.195 [qtp20629897-13] SondaTempRestController - REST - [GET STATUS, RTD, 102] en Sonda {} with address={}.
+[INFO ] 2017-08-07 13:37:50.769 [qtp20629897-13] SondaTempRestController - Sonda RTD DeviceStatusResponse: [
+restartReason=-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=P
+label=Powered Off
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+4:RestartReason{code=U, label='Unknown'}
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+3:RestartReason{code=S, label='Software Reset'}
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+3:RestartReason{code=S, label='Software Reset'}
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+4:RestartReason{code=U, label='Unknown'}
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+4:RestartReason{code=U, label='Unknown'}
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+5:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=W
+label=Watchdog
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+3:RestartReason{code=S, label='Software Reset'}
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+4:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=U
+label=Unknown
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+3:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=S
+label=Software Reset
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlas$RestartReasons):
+[
+
+code=B
+label=Brown Out
+map={
+1:RestartReason{code=P, label='Powered Off'}
+2:RestartReason{code=B, label='Brown Out'}
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+3:RestartReason{code=S, label='Software Reset'}
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+4:RestartReason{code=U, label='Unknown'}
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+5:RestartReason{code=W, label='Watchdog'}
+}
+]
+
+}
+]
+
+firmware=3.32
+this$0=-->(es.fdvcode.pipool.srv.sonda.atlasi2c.impl.SondaAtlasRTD):
+[
+]
+]
+
+[INFO ] 2017-08-07 13:38:15.174 [qtp20629897-14] SondaTempRestController - REST - [READ, RTD, 102] en Sonda {} with address={}.
+[INFO ] 2017-08-07 13:38:16.227 [qtp20629897-14] SondaTempRestController - Sonda RTD INFO: [
+id=SondaTemp
+nom=Sonda TempºC
+address=102
+unitats=ºC
+stateSonda=-->(es.fdvcode.pipool.model.sonda.StateSonda):
+[
+sonda=es.fdvcode.pipool.model.sonda.Sonda@b13e0f
+valor=30.949]
+]
+
+[INFO ] 2017-08-07 13:38:34.928 [qtp20629897-10] SondaTempRestController - REST - Read State of All Sondes.
+[INFO ] 2017-08-07 13:38:35.995 [qtp20629897-10] SondaTempRestController - Sonda Id:SondaTemp, Valor:30.949, Unitats:ºC
+[INFO ] 2017-08-07 13:38:37.038 [qtp20629897-10] SondaTempRestController - Sonda Id:SondaORP, Valor:1018.7, Unitats:mV
+[INFO ] 2017-08-07 13:38:38.075 [qtp20629897-10] SondaTempRestController - Sonda Id:SondaPH, Valor:0.000, Unitats:ph
+[INFO ] 2017-08-07 16:24:18.884 [qtp27201761-12] SondaTempRestController - REST - LED OFF en Sonda RTD with address=102.
+[INFO ] 2017-08-07 16:31:37.494 [qtp27201761-13] SondaTempRestController - REST - LED ON en Sonda RTD with address=102.
+[INFO ] 2017-08-07 16:32:13.627 [qtp27201761-10] SondaTempRestController - REST - LED GET STATE en Sonda RTD with address=102.
+[INFO ] 2017-08-07 16:32:14.171 [qtp27201761-10] SondaTempRestController - Sonda SondaTemp - LED is ON? true
+[INFO ] 2017-08-07 16:32:46.040 [qtp27201761-12] SondaTempRestController - REST - LED OFF en Sonda RTD with address=102.
+[INFO ] 2017-08-07 16:32:51.518 [qtp27201761-10] SondaTempRestController - REST - LED GET STATE en Sonda RTD with address=102.
+[INFO ] 2017-08-07 16:32:52.068 [qtp27201761-10] SondaTempRestController - Sonda SondaTemp - LED is ON? false
+[INFO ] 2017-08-07 16:32:58.901 [qtp27201761-17] SondaTempRestController - REST - LED ON en Sonda RTD with address=102.
+[INFO ] 2017-08-07 16:33:19.960 [qtp27201761-14] SondaTempRestController - REST - LED OFF All Sondes.
+[INFO ] 2017-08-07 16:33:38.159 [qtp27201761-13] SondaTempRestController - REST - LED ON All Sondes.

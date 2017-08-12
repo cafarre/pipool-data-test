@@ -1,0 +1,56 @@
+spring:
+    profiles: 
+      active: Prod
+#      active: Local
+server:
+  port: 8045
+  compression:
+    enabled: true
+pipool:
+  scheduler:
+    reles:
+      active: true
+      initialDelay: 0
+      periodSeconds: 5
+    sondes:
+      active: true
+      initialDelay: 1
+      periodSeconds: 600
+    persist:
+      active: true
+      initialDelay: 2
+      periodSeconds: 3600   
+  reles:
+    file: conf/reles.json
+  sondes:
+    file: conf/sondes.json
+    atlas:
+      modeTest: false
+      device:
+        max_intents: 3
+        delay_milis_long: 1000
+        delay_milis_short: 500
+        
+---
+
+spring:
+    profiles: Local
+pipool:
+  scheduler:
+    reles:
+      active: true
+      initialDelay: 0
+      periodSeconds: 5
+    sondes:
+      active: false
+      initialDelay: 1
+      periodSeconds: 20
+    persist:
+      active: false
+      initialDelay: 2
+      periodSeconds: 60        
+  sondes:
+    atlas:
+      modeTest: true
+   
+        
