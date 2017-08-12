@@ -284,3 +284,6 @@
 [INFO ] 2017-08-12 12:30:51.374 [pool-5-thread-1] RelesPersister - Persistencia de RELES OK.
 [INFO ] 2017-08-12 12:30:52.322 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.5
 [INFO ] 2017-08-12 12:30:53.342 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
+[INFO ] 2017-08-12 12:40:51.307 [pool-4-thread-1] SondaAtlasRTD - Resultat Exec Command [R] en Sonda [SondaTemp]: 28.925
+[INFO ] 2017-08-12 12:40:52.329 [pool-4-thread-1] SondaAtlasORP - Resultat Exec Command [R] en Sonda [SondaORP]: 1018.7
+[INFO ] 2017-08-12 12:40:53.351 [pool-4-thread-1] SondaAtlasPH - Resultat Exec Command [R] en Sonda [SondaPH]: 0.000
