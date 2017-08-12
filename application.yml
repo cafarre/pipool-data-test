@@ -20,6 +20,10 @@ pipool:
       active: true
       initialDelay: 2
       periodSeconds: 3600   
+    backup:
+      active: true
+      hora: 20
+      minut: 36   
   reles:
     file: conf/reles.json
   sondes:
@@ -49,6 +53,10 @@ pipool:
       active: false
       initialDelay: 2
       periodSeconds: 60        
+    backup:
+      active: false
+      hora: 0
+      minut: 5   
   sondes:
     atlas:
       modeTest: true
