@@ -1,3 +1,4 @@
+git pull
 DATE=`date +%d/%m/%Y-%H:%M:%S`
 echo $DATE
 git add .

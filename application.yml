@@ -22,8 +22,8 @@ pipool:
       periodSeconds: 3600   
     backup:
       active: true
-      hora: 20
-      minut: 55   
+      hora: 21
+      minut: 20   
   reles:
     file: conf/reles.json
   sondes:
