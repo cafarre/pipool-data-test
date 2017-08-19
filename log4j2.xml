@@ -62,12 +62,12 @@
 
 	<Loggers>
 
-		<Logger name="es.fdvcode.pipool.srv.RelesSrv" level="info" additivity="true">
+		<Logger name="es.fdvcode.pipool.srv.rele.RelesSrv" level="info" additivity="true">
 			<appender-ref ref="rele-log" level="info"/>
 		</Logger>
 
-		<Logger name="es.fdvcode.pipool.srv.scheduler" level="debug" additivity="true">
-			<appender-ref ref="scheduler-log" level="debug" />
+		<Logger name="es.fdvcode.pipool.srv.scheduler" level="info" additivity="true">
+			<appender-ref ref="scheduler-log" level="info" />
 		</Logger>
 
 		<Logger name="es.fdvcode.pipool.restsrv" level="info" additivity="true">
