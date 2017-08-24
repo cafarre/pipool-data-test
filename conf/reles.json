@@ -14,29 +14,28 @@
     "listFrangesHoraries" : [ {
       "horaIni" : 8,
       "minutIni" : 0,
-      "horaFin" : 9,
-      "minutFin" : 0,
-      "activa" : false
+      "secondIni" : 0,
+      "duracioMinuts" : 60,
+      "duracioSeconds" : 0
     }, {
       "horaIni" : 11,
       "minutIni" : 0,
-      "horaFin" : 14,
-      "minutFin" : 0,
-      "activa" : false
+      "secondIni" : 0,
+      "duracioMinuts" : 180,
+      "duracioSeconds" : 0
     }, {
       "horaIni" : 16,
       "minutIni" : 0,
-      "horaFin" : 19,
-      "minutFin" : 0,
-      "activa" : true
+      "secondIni" : 0,
+      "duracioMinuts" : 180,
+      "duracioSeconds" : 0
     }, {
       "horaIni" : 22,
       "minutIni" : 0,
-      "horaFin" : 23,
-      "minutFin" : 30,
-      "activa" : false
-    } ],
-    "actiu" : true
+      "secondIni" : 0,
+      "duracioMinuts" : 90,
+      "duracioSeconds" : 0
+    } ]
   }, {
     "id" : "ProgBombaHivern",
     "nom" : "Programació Bomba Hivern",
@@ -47,42 +46,23 @@
     "listFrangesHoraries" : [ {
       "horaIni" : 6,
       "minutIni" : 0,
-      "horaFin" : 9,
-      "minutFin" : 0,
-      "activa" : false
+      "secondIni" : 0,
+      "duracioMinuts" : 180,
+      "duracioSeconds" : 0
     }, {
       "horaIni" : 21,
       "minutIni" : 0,
-      "horaFin" : 23,
-      "minutFin" : 30,
-      "activa" : false
-    } ],
-    "actiu" : false
+      "secondIni" : 0,
+      "duracioMinuts" : 90,
+      "duracioSeconds" : 0
+    } ]
   } ],
   "stateRele" : {
-    "gpioPinHigh" : false,
-    "activacioManual" : false,
-    "desactivacioManual" : false,
+  	"on" : false,
+    "gpioPinHigh" : true,
     "desactivacioReleMaster" : false,
     "activacioTemporal" : null,
-    "activacioProgramada" : [ ],
-    "on" : false
-  }
-}, {
-  "id" : "ReleLlums",
-  "nom" : "Llums Piscina",
-  "gpioPin" : 23,
-  "gpioStateWhenReleOn" : false,
-  "idReleMaster" : null,
-  "calendars" : null,
-  "stateRele" : {
-    "gpioPinHigh" : false,
-    "activacioManual" : false,
-    "desactivacioManual" : false,
-    "desactivacioReleMaster" : false,
-    "activacioTemporal" : null,
-    "activacioProgramada" : [ ],
-    "on" : false
+    "activacioProgramada" : [ ]
   }
 }, {
   "id" : "ReleLfi",
@@ -100,18 +80,21 @@
     "listFrangesHoraries" : [ {
       "horaIni" : 8,
       "minutIni" : 0,
-      "horaFin" : 9,
-      "minutFin" : 0
+      "secondIni" : 0,
+      "duracioMinuts" : 60,
+      "duracioSeconds" : 0    
     }, {
       "horaIni" : 16,
       "minutIni" : 0,
-      "horaFin" : 19,
-      "minutFin" : 0
+      "secondIni" : 0,
+      "duracioMinuts" : 180,
+      "duracioSeconds" : 0    
     }, {
       "horaIni" : 22,
       "minutIni" : 0,
-      "horaFin" : 23,
-      "minutFin" : 30
+      "secondIni" : 0,
+      "duracioMinuts" : 90,
+      "duracioSeconds" : 0    
     } ],
     "actiu" : true
   }, {
@@ -124,25 +107,51 @@
     "listFrangesHoraries" : [ {
       "horaIni" : 6,
       "minutIni" : 0,
-      "horaFin" : 9,
-      "minutFin" : 0,
-      "activa" : false
+      "secondIni" : 0,
+      "duracioMinuts" : 180,
+      "duracioSeconds" : 0    
     }, {
-      "horaIni" : 21,
+      "horaIni" : 22,
       "minutIni" : 0,
-      "horaFin" : 23,
-      "minutFin" : 30,
-      "activa" : false
+      "secondIni" : 0,
+      "duracioMinuts" : 90,
+      "duracioSeconds" : 0    
     } ],
     "actiu" : false
   } ],
   "stateRele" : {
-    "gpioPinHigh" : false,
-    "activacioManual" : false,
-    "desactivacioManual" : false,
+  	"on" : false,
+    "gpioPinHigh" : true,
     "desactivacioReleMaster" : false,
     "activacioTemporal" : null,
-    "activacioProgramada" : [ ],
-    "on" : false
+    "activacioProgramada" : [ ]
+  }
+}, {
+  "id" : "ReleLlums",
+  "nom" : "Llums Piscina",
+  "gpioPin" : 23,
+  "gpioStateWhenReleOn" : false,
+  "idReleMaster" : null,
+  "calendars" : null,
+  "stateRele" : {
+  	"on" : false,
+    "gpioPinHigh" : true,
+    "desactivacioReleMaster" : false,
+    "activacioTemporal" : null,
+    "activacioProgramada" : [ ]
+  }
+}, {
+  "id" : "ReleFan",
+  "nom" : "Ventilador Quadre",
+  "gpioPin" : 22,
+  "gpioStateWhenReleOn" : false,
+  "idReleMaster" : null,
+  "calendars" : null,
+  "stateRele" : {
+  	"on" : false,
+    "gpioPinHigh" : true,
+    "desactivacioReleMaster" : false,
+    "activacioTemporal" : null,
+    "activacioProgramada" : [ ]
   }
 } ]
