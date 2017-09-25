@@ -1,72 +1,132 @@
 [ {
   "id" : "ReleBomba",
   "nom" : "Motor Bomba Filtre",
+  "ordre" : 1,
   "gpioPin" : 25,
   "gpioStateWhenReleOn" : false,
-  "idReleMaster" : null,
+  "secondsDuradaCicles" : 10800,  
   "calendars" : [ {
     "id" : "ProgBombaEstiu",
     "nom" : "Programació Bomba Estiu",
     "diaIni" : 1,
     "mesIni" : 6,
-    "diaFin" : 30,
+    "diaFin" : 1,
     "mesFin" : 9,
     "listFrangesHoraries" : [ {
+      "tipus" : "Calculada",
       "horaIni" : 8,
       "minutIni" : 0,
-      "secondIni" : 0,
-      "duracioMinuts" : 60,
-      "duracioSeconds" : 0
+      "secondIni" : 0
     }, {
+      "tipus" : "Calculada",
+      "activarRelesSlaves" : true,
       "horaIni" : 11,
       "minutIni" : 0,
-      "secondIni" : 0,
-      "duracioMinuts" : 180,
-      "duracioSeconds" : 0
+      "secondIni" : 0
     }, {
+      "tipus" : "Calculada",
       "horaIni" : 16,
       "minutIni" : 0,
-      "secondIni" : 0,
-      "duracioMinuts" : 180,
-      "duracioSeconds" : 0
+      "secondIni" : 0
     }, {
+      "tipus" : "Normal",
+      "activarRelesSlaves" : true,
       "horaIni" : 22,
       "minutIni" : 0,
-      "secondIni" : 0,
-      "duracioMinuts" : 90,
-      "duracioSeconds" : 0
+      "duracioSeconds" : 5400
     } ]
+  }, {
+    "id" : "ProgBombaTardor",
+    "nom" : "Programació Bomba Tardor",
+    "diaIni" : 2,
+    "mesIni" : 9,
+    "diaFin" : 30,
+    "mesFin" : 11,
+    "listFrangesHoraries" : [ {
+      "tipus" : "Calculada",
+      "activarRelesSlaves" : true,
+      "horaIni" : 10,
+      "minutIni" : 0,
+      "secondIni" : 0
+    }, {
+      "tipus" : "Calculada",
+      "horaIni" : 15,
+      "minutIni" : 0,
+      "secondIni" : 0
+    }, {
+      "tipus" : "Normal",
+      "activarRelesSlaves" : true,
+      "horaIni" : 21,
+      "minutIni" : 30,
+      "secondIni" : 0,
+      "duracioSeconds" : 5400
+    } ] 
   }, {
     "id" : "ProgBombaHivern",
     "nom" : "Programació Bomba Hivern",
     "diaIni" : 1,
-    "mesIni" : 10,
-    "diaFin" : 30,
+    "mesIni" : 12,
+    "diaFin" : 19,
+    "mesFin" : 4,
+    "listFrangesHoraries" : [ {
+      "tipus" : "Calculada",
+      "activarRelesSlaves" : true,
+      "horaIni" : 8,
+      "minutIni" : 0,
+      "secondIni" : 0
+    }, {
+      "tipus" : "Calculada",
+      "activarRelesSlaves" : true,
+      "horaIni" : 21,
+      "minutIni" : 30,
+      "secondIni" : 0
+    } ]
+  }, {
+    "id" : "ProgBombaPrimavera",
+    "nom" : "Programació Bomba Primavera",
+    "diaIni" : 20,
+    "mesIni" : 4,
+    "diaFin" : 31,
     "mesFin" : 5,
     "listFrangesHoraries" : [ {
-      "horaIni" : 6,
+      "tipus" : "Calculada",
+      "activarRelesSlaves" : true,
+      "horaIni" : 10,
       "minutIni" : 0,
-      "secondIni" : 0,
-      "duracioMinuts" : 180,
-      "duracioSeconds" : 0
+      "secondIni" : 0
     }, {
-      "horaIni" : 21,
+      "tipus" : "Calculada",
+      "horaIni" : 15,
       "minutIni" : 0,
+      "secondIni" : 0
+    }, {
+      "tipus" : "Normal",
+      "activarRelesSlaves" : true,
+      "horaIni" : 21,
+      "minutIni" : 30,
       "secondIni" : 0,
-      "duracioMinuts" : 90,
-      "duracioSeconds" : 0
-    } ]
+      "duracioSeconds" : 5400
+    } ] 
   } ],
-  "stateRele" : {
-  	"on" : false,
-    "gpioPinHigh" : true,
-    "desactivacioReleMaster" : false,
-    "activacioTemporal" : null,
-    "activacioProgramada" : [ ]
-  }
+  "rules" : [ {
+    "id" : "AnticongelacioBomba",
+    "activateOnTrue" : true,
+    "activarRelesSlaves" : true,
+    "condicions" : [ {
+      "dato" : "SondaTemp",
+      "operand" : "LE",
+      "valor" : 2.0,
+	  "condicioDesactivacio" : {
+        "dato" : "DuracioSeconds",
+        "operand" : "GE",
+        "valor" : 1800
+      }     
+    } ]
+  } ]
 }, {
   "id" : "ReleLfi",
   "nom" : "Motor Bomba LFI",
+  "ordre" : 2,
   "gpioPin" : 24,
   "gpioStateWhenReleOn" : false,
   "idReleMaster" : "ReleBomba",
@@ -75,83 +135,40 @@
     "nom" : "Programació Bomba LFI Estiu",
     "diaIni" : 1,
     "mesIni" : 6,
-    "diaFin" : 30,
+    "diaFin" : 9,
     "mesFin" : 9,
     "listFrangesHoraries" : [ {
+      "tipus" : "Normal",
       "horaIni" : 8,
       "minutIni" : 0,
       "secondIni" : 0,
-      "duracioMinuts" : 60,
-      "duracioSeconds" : 0    
-    }, {
-      "horaIni" : 16,
-      "minutIni" : 0,
-      "secondIni" : 0,
-      "duracioMinuts" : 180,
-      "duracioSeconds" : 0    
-    }, {
-      "horaIni" : 22,
-      "minutIni" : 0,
-      "secondIni" : 0,
-      "duracioMinuts" : 90,
-      "duracioSeconds" : 0    
-    } ],
-    "actiu" : true
-  }, {
-    "id" : "ProgBombaLfiHivern",
-    "nom" : "Programació Bomba LFI Hivern",
-    "diaIni" : 1,
-    "mesIni" : 10,
-    "diaFin" : 30,
-    "mesFin" : 5,
-    "listFrangesHoraries" : [ {
-      "horaIni" : 6,
-      "minutIni" : 0,
-      "secondIni" : 0,
-      "duracioMinuts" : 180,
-      "duracioSeconds" : 0    
-    }, {
-      "horaIni" : 22,
-      "minutIni" : 0,
-      "secondIni" : 0,
-      "duracioMinuts" : 90,
-      "duracioSeconds" : 0    
-    } ],
-    "actiu" : false
-  } ],
-  "stateRele" : {
-  	"on" : false,
-    "gpioPinHigh" : true,
-    "desactivacioReleMaster" : false,
-    "activacioTemporal" : null,
-    "activacioProgramada" : [ ]
-  }
+      "duracioSeconds" : 3600    
+    } ]
+  } ]
 }, {
   "id" : "ReleLlums",
   "nom" : "Llums Piscina",
+  "ordre" : 3,
   "gpioPin" : 23,
-  "gpioStateWhenReleOn" : false,
-  "idReleMaster" : null,
-  "calendars" : null,
-  "stateRele" : {
-  	"on" : false,
-    "gpioPinHigh" : true,
-    "desactivacioReleMaster" : false,
-    "activacioTemporal" : null,
-    "activacioProgramada" : [ ]
-  }
+  "gpioStateWhenReleOn" : false
 }, {
   "id" : "ReleFan",
   "nom" : "Ventilador Quadre",
+  "ordre" : 4,
   "gpioPin" : 22,
   "gpioStateWhenReleOn" : false,
-  "idReleMaster" : null,
-  "calendars" : null,
-  "stateRele" : {
-  	"on" : false,
-    "gpioPinHigh" : true,
-    "desactivacioReleMaster" : false,
-    "activacioTemporal" : null,
-    "activacioProgramada" : [ ]
-  }
+  "rules" : [ {
+    "id" : "FanTempCpu",
+    "activateOnTrue" : true,
+    "condicions" : [ {
+      "dato" : "TempCpuRpi",
+      "operand" : "GE",
+      "valor" : 48.0,
+	  "condicioDesactivacio" : {
+        "dato" : "TempCpuRpi",
+        "operand" : "LE",
+        "valor" : 47.0
+      }      
+    } ]
+  } ]
 } ]
