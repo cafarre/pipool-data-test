@@ -150,7 +150,7 @@
   "nom" : "Llums Piscina",
   "ordre" : 3,
   "gpioPin" : 23,
-  "gpioStateWhenReleOn" : true,
+  "gpioStateWhenReleOn" : true
 }, {
   "id" : "ReleFan",
   "nom" : "Ventilador Quadre",
