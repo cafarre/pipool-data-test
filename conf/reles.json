@@ -50,7 +50,8 @@
       "secondIni" : 0
     }, {
       "tipus" : "Calculada",
-      "horaIni" : 15,
+      "activarRelesSlaves" : true,
+      "horaIni" : 17,
       "minutIni" : 0,
       "secondIni" : 0
     }, {
