@@ -1,25 +1,4 @@
 [ {
-  "id" : "SondaTemp",
-  "nom" : "Sonda TempºC",
-  "ordre" : 1,
-  "unitats" : "ºC",
-  "tipusSonda" : "Atlas",
-  "address" : 102
-}, {
-  "id" : "SondaORP",
-  "nom" : "Sonda ORP/Redox",
-  "ordre" : 2,
-  "unitats" : "mV",
-  "tipusSonda" : "Atlas",
-  "address" : 98
-}, {
-  "id" : "SondaPH",
-  "nom" : "Sonda PH",
-  "ordre" : 3,
-  "unitats" : "ph",
-  "tipusSonda" : "Atlas",
-  "address" : 99  
-}, {
   "id" : "TempCpuRpi",
   "nom" : "Temp CPU rPi ºC",
   "ordre" : 4,
