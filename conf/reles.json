@@ -3,7 +3,7 @@
   "nom" : "Motor Bomba Filtre",
   "ordre" : 1,
   "gpioPin" : 25,
-  "gpioStateWhenReleOn" : false,
+  "gpioStateWhenReleOn" : true,
   "secondsDuradaCicles" : 10800,  
   "calendars" : [ {
     "id" : "ProgBombaEstiu",
@@ -128,7 +128,7 @@
   "nom" : "Motor Bomba LFI",
   "ordre" : 2,
   "gpioPin" : 24,
-  "gpioStateWhenReleOn" : false,
+  "gpioStateWhenReleOn" : true,
   "idReleMaster" : "ReleBomba",
   "calendars" : [ {
     "id" : "ProgBombaLfiEstiu",
@@ -150,13 +150,13 @@
   "nom" : "Llums Piscina",
   "ordre" : 3,
   "gpioPin" : 23,
-  "gpioStateWhenReleOn" : false
+  "gpioStateWhenReleOn" : true,
 }, {
   "id" : "ReleFan",
   "nom" : "Ventilador Quadre",
   "ordre" : 4,
   "gpioPin" : 22,
-  "gpioStateWhenReleOn" : false,
+  "gpioStateWhenReleOn" : true,
   "rules" : [ {
     "id" : "FanTempCpu",
     "activateOnTrue" : true,
