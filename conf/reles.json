@@ -52,7 +52,7 @@
       "tipus" : "Calculada",
       "activarRelesSlaves" : true,
       "horaIni" : 17,
-      "minutIni" : 0,
+      "minutIni" : 30,
       "secondIni" : 0
     }, {
       "tipus" : "Normal",
